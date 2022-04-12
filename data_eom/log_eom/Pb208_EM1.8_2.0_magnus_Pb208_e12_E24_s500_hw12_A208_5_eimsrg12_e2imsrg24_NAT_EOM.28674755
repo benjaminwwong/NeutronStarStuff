@@ -1,0 +1,593 @@
+NTHREADS = 48
+ /home/b62wong/scratch/output/Pb208_EM1.8_2.0_magnus_Pb208_e12_E24_s500_hw12_A208_5_eimsrg12_e2imsrg24_NAT.snt                                                                                           
+ The total number of orbits:          182
+
+====================
+Reference: 208Pb
+====================
+ PROTONS:   82
+ NEUTRONS: 126
+ eMax= 12
+ hw= 12
+ TWO BODY INTERACTION: /home/b62wong/scratch/output/Pb208_EM1.8_2.0_magnus_Pb208_e12_E24_s500_hw12_A208_5_eimsrg12_e2imsrg24_NAT.snt                                                                                           
+
+ FILLED PROTON ORBITALS:
+     0s 1
+     0p 3
+     0p 1
+     0d 5
+     0d 3
+     1s 1
+     0f 7
+     0f 5
+     1p 3
+     1p 1
+     0g 9
+     0g 7
+     1d 5
+     1d 3
+     2s 1
+     0h11
+
+ FILLED NEUTRON ORBITALS:
+     0s 1
+     0p 3
+     0p 1
+     0d 5
+     0d 3
+     1s 1
+     0f 7
+     0f 5
+     1p 3
+     1p 1
+     0g 9
+     0g 7
+     1d 5
+     1d 3
+     2s 1
+     0h11
+     0h 9
+     1f 7
+     1f 5
+     2p 3
+     2p 1
+     0x13
+
+ MEMORY OF 2 BODY STORAGE IS:    904.43386840820312      MB
+ reading 2-body Hamiltonian
+ Ntot         182
+ input ZeroBody part of Hamiltonian is:   -1627.3000000000000     
+
+ TIME:     00:04:27
+
+ ===================================================================
+   iter        s            E0          E0+MBPT(2)      |MBPT(2)|  
+ ===================================================================
+ STARTING EXCITED STATES CALCULATION
+ Tensor Operator Memory =  0.10908833146095276      GB
+ Tensor Operator Size=     14639756
+
+       EXECUTING EOM CALCULATION FOR EXCITED STATES: J=2 P=0 for 208Pb
+
+ 1p1h Amplitudes:          536
+ 2p2h Amplitudes:     11710817
+Lanczos iteration:     0Lanczos iteration:     1Lanczos iteration:     2
+
+Ground State Energy:  -1627.300000000
+
+EXCITED STATE ENERGIES: J=2 P=0
+ ==============================================
+       dE           E_0 + dE         n(1p1h)   
+ ==============================================
+   124.405110786 -1502.894889214     0.000184887
+
+ TIME:     00:08:51
+
+
+ TIME:     00:08:51
+
+ Tensor Operator Memory =   3.2233711034059525      GB
+ Tensor Operator Size=    432609534
+ reading transition operator...
+ Read operator with Human format: /home/b62wong/scratch/output/Pb208_EM1.8_2.0_magnus_Pb208_e12_E24_s500_hw12_A208_5_eimsrg12_e2imsrg24_NATISQ.op
+
+ TIME:     00:29:51
+
+
+ =============================================================================
+         E_in                E_out         B(E2;2+ -> GS)      B(E2;GS -> 2+)
+ =============================================================================
+   124.405110785736     0.000000000000     0.016941718074     0.084708590370
+
+
+
+ ===========================================
+  COMPUTING E2 RESPONSE FUNCTION FOR 208Pb
+ ===========================================
+ 1p1h Amplitudes:          536
+ 2p2h Amplitudes:     11710817
+Lanczos iteration:     0 , NCONV:            1
+Lanczos iteration:     1 , NCONV:            1
+Lanczos iteration:     2 , NCONV:            1
+Lanczos iteration:     3 , NCONV:            1
+Lanczos iteration:     4 , NCONV:            1
+Lanczos iteration:     5 , NCONV:            1
+Lanczos iteration:     6 , NCONV:            1
+Lanczos iteration:     7 , NCONV:            1
+Lanczos iteration:     8 , NCONV:            1
+Lanczos iteration:     9 , NCONV:            1
+Lanczos iteration:    10 , NCONV:            1
+Lanczos iteration:    11 , NCONV:            1
+Lanczos iteration:    12 , NCONV:            1
+Lanczos iteration:    13 , NCONV:            1
+Lanczos iteration:    14 , NCONV:            1
+Lanczos iteration:    15 , NCONV:            1
+Lanczos iteration:    16 , NCONV:            1
+Lanczos iteration:    17 , NCONV:            1
+Lanczos iteration:    18 , NCONV:            1
+Lanczos iteration:    19 , NCONV:            1
+Lanczos iteration:    20 , NCONV:            1
+Lanczos iteration:    21 , NCONV:            1
+Lanczos iteration:    22 , NCONV:            1
+Lanczos iteration:    23 , NCONV:            1
+Lanczos iteration:    24 , NCONV:            1
+Lanczos iteration:    25 , NCONV:            1
+Lanczos iteration:    26 , NCONV:            1
+Lanczos iteration:    27 , NCONV:            1
+Lanczos iteration:    28 , NCONV:            1
+Lanczos iteration:    29 , NCONV:            1
+Lanczos iteration:    30 , NCONV:            1
+Lanczos iteration:    31 , NCONV:            1
+Lanczos iteration:    32 , NCONV:            1
+Lanczos iteration:    33 , NCONV:            1
+Lanczos iteration:    34 , NCONV:            1
+Lanczos iteration:    35 , NCONV:            1
+Lanczos iteration:    36 , NCONV:            1
+Lanczos iteration:    37 , NCONV:            1
+Lanczos iteration:    38 , NCONV:            1
+Lanczos iteration:    39 , NCONV:            1
+Lanczos iteration:    40 , NCONV:            1
+Lanczos iteration:    41 , NCONV:            1
+Lanczos iteration:    42 , NCONV:            1
+Lanczos iteration:    43 , NCONV:            1
+Lanczos iteration:    44 , NCONV:            1
+Lanczos iteration:    45 , NCONV:            1
+Lanczos iteration:    46 , NCONV:            1
+Lanczos iteration:    47 , NCONV:            1
+Lanczos iteration:    48 , NCONV:            1
+Lanczos iteration:    49 , NCONV:            1
+Lanczos iteration:    50 , NCONV:            1
+Lanczos iteration:    51 , NCONV:            1
+Lanczos iteration:    52 , NCONV:            1
+Lanczos iteration:    53 , NCONV:            1
+Lanczos iteration:    54 , NCONV:            1
+Lanczos iteration:    55 , NCONV:            1
+Lanczos iteration:    56 , NCONV:            1
+Lanczos iteration:    57 , NCONV:            1
+Lanczos iteration:    58 , NCONV:            1
+Lanczos iteration:    59 , NCONV:            1
+Lanczos iteration:    60 , NCONV:            1
+Lanczos iteration:    61 , NCONV:            1
+Lanczos iteration:    62 , NCONV:            1
+Lanczos iteration:    63 , NCONV:            1
+Lanczos iteration:    64 , NCONV:            1
+Lanczos iteration:    65 , NCONV:            1
+Lanczos iteration:    66 , NCONV:            1
+Lanczos iteration:    67 , NCONV:            1
+Lanczos iteration:    68 , NCONV:            1
+Lanczos iteration:    69 , NCONV:            1
+Lanczos iteration:    70 , NCONV:            1
+Lanczos iteration:    71 , NCONV:            1
+Lanczos iteration:    72 , NCONV:            1
+Lanczos iteration:    73 , NCONV:            1
+Lanczos iteration:    74 , NCONV:            1
+Lanczos iteration:    75 , NCONV:            1
+Lanczos iteration:    76 , NCONV:            1
+Lanczos iteration:    77 , NCONV:            1
+Lanczos iteration:    78 , NCONV:            1
+Lanczos iteration:    79 , NCONV:            1
+Lanczos iteration:    80 , NCONV:            1
+Lanczos iteration:    81 , NCONV:            1
+Lanczos iteration:    82 , NCONV:            1
+Lanczos iteration:    83 , NCONV:            1
+Lanczos iteration:    84 , NCONV:            1
+Lanczos iteration:    85 , NCONV:            1
+Lanczos iteration:    86 , NCONV:            1
+Lanczos iteration:    87 , NCONV:            1
+Lanczos iteration:    88 , NCONV:            1
+Lanczos iteration:    89 , NCONV:            1
+Lanczos iteration:    90 , NCONV:            1
+Lanczos iteration:    91 , NCONV:            1
+Lanczos iteration:    92 , NCONV:            1
+Lanczos iteration:    93 , NCONV:            1
+Lanczos iteration:    94 , NCONV:            1
+Lanczos iteration:    95 , NCONV:            1
+Lanczos iteration:    96 , NCONV:            1
+Lanczos iteration:    97 , NCONV:            1
+Lanczos iteration:    98 , NCONV:            1
+Lanczos iteration:    99 , NCONV:            1
+Lanczos iteration:   100 , NCONV:            1
+Lanczos iteration:   101 , NCONV:            1
+Lanczos iteration:   102 , NCONV:            1
+Lanczos iteration:   103 , NCONV:            1
+Lanczos iteration:   104 , NCONV:            1
+Lanczos iteration:   105 , NCONV:            1
+Lanczos iteration:   106 , NCONV:            1
+Lanczos iteration:   107 , NCONV:            1
+Lanczos iteration:   108 , NCONV:            1
+Lanczos iteration:   109 , NCONV:            1
+Lanczos iteration:   110 , NCONV:            1
+Lanczos iteration:   111 , NCONV:            1
+Lanczos iteration:   112 , NCONV:            1
+Lanczos iteration:   113 , NCONV:            1
+Lanczos iteration:   114 , NCONV:            1
+Lanczos iteration:   115 , NCONV:            1
+Lanczos iteration:   116 , NCONV:            1
+Lanczos iteration:   117 , NCONV:            1
+Lanczos iteration:   118 , NCONV:            1
+Lanczos iteration:   119 , NCONV:            1
+Lanczos iteration:   120 , NCONV:            1
+Lanczos iteration:   121 , NCONV:            1
+Lanczos iteration:   122 , NCONV:            1
+Lanczos iteration:   123 , NCONV:            1
+Lanczos iteration:   124 , NCONV:            1
+Lanczos iteration:   125 , NCONV:            1
+Lanczos iteration:   126 , NCONV:            1
+Lanczos iteration:   127 , NCONV:            1
+Lanczos iteration:   128 , NCONV:            1
+Lanczos iteration:   129 , NCONV:            1
+Lanczos iteration:   130 , NCONV:            1
+Lanczos iteration:   131 , NCONV:            1
+Lanczos iteration:   132 , NCONV:            1
+Lanczos iteration:   133 , NCONV:            1
+Lanczos iteration:   134 , NCONV:            1
+Lanczos iteration:   135 , NCONV:            1
+Lanczos iteration:   136 , NCONV:            1
+Lanczos iteration:   137 , NCONV:            1
+Lanczos iteration:   138 , NCONV:            1
+Lanczos iteration:   139 , NCONV:            1
+Lanczos iteration:   140 , NCONV:            1
+Lanczos iteration:   141 , NCONV:            1
+Lanczos iteration:   142 , NCONV:            1
+Lanczos iteration:   143 , NCONV:            1
+Lanczos iteration:   144 , NCONV:            1
+Lanczos iteration:   145 , NCONV:            1
+Lanczos iteration:   146 , NCONV:            1
+Lanczos iteration:   147 , NCONV:            1
+Lanczos iteration:   148 , NCONV:            1
+Lanczos iteration:   149 , NCONV:            1
+Lanczos iteration:   150 , NCONV:            1
+Lanczos iteration:   151 , NCONV:            1
+Lanczos iteration:   152 , NCONV:            1
+Lanczos iteration:   153 , NCONV:            1
+Lanczos iteration:   154 , NCONV:            1
+Lanczos iteration:   155 , NCONV:            1
+Lanczos iteration:   156 , NCONV:            1
+Lanczos iteration:   157 , NCONV:            1
+Lanczos iteration:   158 , NCONV:            1
+Lanczos iteration:   159 , NCONV:            1
+Lanczos iteration:   160 , NCONV:            1
+Lanczos iteration:   161 , NCONV:            1
+Lanczos iteration:   162 , NCONV:            1
+Lanczos iteration:   163 , NCONV:            1
+Lanczos iteration:   164 , NCONV:            1
+Lanczos iteration:   165 , NCONV:            1
+Lanczos iteration:   166 , NCONV:            1
+Lanczos iteration:   167 , NCONV:            1
+Lanczos iteration:   168 , NCONV:            1
+Lanczos iteration:   169 , NCONV:            1
+Lanczos iteration:   170 , NCONV:            1
+Lanczos iteration:   171 , NCONV:            1
+Lanczos iteration:   172 , NCONV:            1
+Lanczos iteration:   173 , NCONV:            1
+Lanczos iteration:   174 , NCONV:            1
+Lanczos iteration:   175 , NCONV:            1
+Lanczos iteration:   176 , NCONV:            1
+Lanczos iteration:   177 , NCONV:            1
+Lanczos iteration:   178 , NCONV:            1
+Lanczos iteration:   179 , NCONV:            1
+Lanczos iteration:   180 , NCONV:            1
+Lanczos iteration:   181 , NCONV:            1
+Lanczos iteration:   182 , NCONV:            1
+Lanczos iteration:   183 , NCONV:            1
+Lanczos iteration:   184 , NCONV:            1
+Lanczos iteration:   185 , NCONV:            1
+Lanczos iteration:   186 , NCONV:            1
+Lanczos iteration:   187 , NCONV:            1
+Lanczos iteration:   188 , NCONV:            1
+Lanczos iteration:   189 , NCONV:            1
+Lanczos iteration:   190 , NCONV:            1
+Lanczos iteration:   191 , NCONV:            1
+Lanczos iteration:   192 , NCONV:            1
+Lanczos iteration:   193 , NCONV:            1
+Lanczos iteration:   194 , NCONV:            1
+Lanczos iteration:   195 , NCONV:            1
+Lanczos iteration:   196 , NCONV:            1
+Lanczos iteration:   197 , NCONV:            1
+Lanczos iteration:   198 , NCONV:            1
+Lanczos iteration:   199 , NCONV:            1
+Lanczos iteration:   200 , NCONV:            1
+Lanczos iteration:   201 , NCONV:            1
+Lanczos iteration:   202 , NCONV:            1
+Lanczos iteration:   203 , NCONV:            1
+Lanczos iteration:   204 , NCONV:            1
+Lanczos iteration:   205 , NCONV:            1
+Lanczos iteration:   206 , NCONV:            1
+Lanczos iteration:   207 , NCONV:            1
+Lanczos iteration:   208 , NCONV:            1
+Lanczos iteration:   209 , NCONV:            1
+Lanczos iteration:   210 , NCONV:            1
+Lanczos iteration:   211 , NCONV:            1
+Lanczos iteration:   212 , NCONV:            1
+Lanczos iteration:   213 , NCONV:            1
+Lanczos iteration:   214 , NCONV:            1
+Lanczos iteration:   215 , NCONV:            1
+Lanczos iteration:   216 , NCONV:            1
+Lanczos iteration:   217 , NCONV:            1
+Lanczos iteration:   218 , NCONV:            1
+Lanczos iteration:   219 , NCONV:            1
+Lanczos iteration:   220 , NCONV:            1
+Lanczos iteration:   221 , NCONV:            1
+Lanczos iteration:   222 , NCONV:            1
+Lanczos iteration:   223 , NCONV:            1
+Lanczos iteration:   224 , NCONV:            1
+Lanczos iteration:   225 , NCONV:            1
+Lanczos iteration:   226 , NCONV:            1
+Lanczos iteration:   227 , NCONV:            1
+Lanczos iteration:   228 , NCONV:            1
+Lanczos iteration:   229 , NCONV:            1
+Lanczos iteration:   230 , NCONV:            1
+Lanczos iteration:   231 , NCONV:            1
+Lanczos iteration:   232 , NCONV:            1
+Lanczos iteration:   233 , NCONV:            1
+Lanczos iteration:   234 , NCONV:            1
+Lanczos iteration:   235 , NCONV:            1
+Lanczos iteration:   236 , NCONV:            1
+Lanczos iteration:   237 , NCONV:            1
+Lanczos iteration:   238 , NCONV:            1
+Lanczos iteration:   239 , NCONV:            1
+Lanczos iteration:   240 , NCONV:            1
+Lanczos iteration:   241 , NCONV:            1
+Lanczos iteration:   242 , NCONV:            1
+Lanczos iteration:   243 , NCONV:            1
+Lanczos iteration:   244 , NCONV:            1
+Lanczos iteration:   245 , NCONV:            1
+Lanczos iteration:   246 , NCONV:            1
+Lanczos iteration:   247 , NCONV:            1
+Lanczos iteration:   248 , NCONV:            1
+Lanczos iteration:   249 , NCONV:            1
+Lanczos iteration:   250 , NCONV:            1
+Lanczos iteration:   251 , NCONV:            1
+Lanczos iteration:   252 , NCONV:            1
+Lanczos iteration:   253 , NCONV:            1
+Lanczos iteration:   254 , NCONV:            1
+Lanczos iteration:   255 , NCONV:            1
+Lanczos iteration:   256 , NCONV:            1
+Lanczos iteration:   257 , NCONV:            1
+Lanczos iteration:   258 , NCONV:            1
+Lanczos iteration:   259 , NCONV:            1
+Lanczos iteration:   260 , NCONV:            1
+Lanczos iteration:   261 , NCONV:            1
+Lanczos iteration:   262 , NCONV:            1
+Lanczos iteration:   263 , NCONV:            1
+Lanczos iteration:   264 , NCONV:            1
+Lanczos iteration:   265 , NCONV:            1
+Lanczos iteration:   266 , NCONV:            1
+Lanczos iteration:   267 , NCONV:            1
+Lanczos iteration:   268 , NCONV:            1
+Lanczos iteration:   269 , NCONV:            1
+Lanczos iteration:   270 , NCONV:            1
+Lanczos iteration:   271 , NCONV:            1
+Lanczos iteration:   272 , NCONV:            1
+Lanczos iteration:   273 , NCONV:            1
+Lanczos iteration:   274 , NCONV:            1
+Lanczos iteration:   275 , NCONV:            1
+Lanczos iteration:   276 , NCONV:            1
+Lanczos iteration:   277 , NCONV:            1
+Lanczos iteration:   278 , NCONV:            1
+Lanczos iteration:   279 , NCONV:            1
+Lanczos iteration:   280 , NCONV:            1
+Lanczos iteration:   281 , NCONV:            1
+Lanczos iteration:   282 , NCONV:            1
+Lanczos iteration:   283 , NCONV:            1
+Lanczos iteration:   284 , NCONV:            1
+Lanczos iteration:   285 , NCONV:            1
+Lanczos iteration:   286 , NCONV:            1
+Lanczos iteration:   287 , NCONV:            1
+Lanczos iteration:   288 , NCONV:            1
+Lanczos iteration:   289 , NCONV:            1
+Lanczos iteration:   290 , NCONV:            1
+Lanczos iteration:   291 , NCONV:            1
+Lanczos iteration:   292 , NCONV:            1
+Lanczos iteration:   293 , NCONV:            1
+Lanczos iteration:   294 , NCONV:            1
+Lanczos iteration:   295 , NCONV:            1
+Lanczos iteration:   296 , NCONV:            1
+Lanczos iteration:   297 , NCONV:            1
+Lanczos iteration:   298 , NCONV:            1
+Lanczos iteration:   299 , NCONV:            1
+Lanczos iteration:   300 , NCONV:            1
+Lanczos iteration:   301 , NCONV:            1
+Lanczos iteration:   302 , NCONV:            1
+Lanczos iteration:   303 , NCONV:            1
+Lanczos iteration:   304 , NCONV:            1
+Lanczos iteration:   305 , NCONV:            1
+Lanczos iteration:   306 , NCONV:            1
+Lanczos iteration:   307 , NCONV:            1
+Lanczos iteration:   308 , NCONV:            1
+Lanczos iteration:   309 , NCONV:            1
+Lanczos iteration:   310 , NCONV:            1
+Lanczos iteration:   311 , NCONV:            1
+Lanczos iteration:   312 , NCONV:            1
+Lanczos iteration:   313 , NCONV:            1
+Lanczos iteration:   314 , NCONV:            1
+Lanczos iteration:   315 , NCONV:            1
+Lanczos iteration:   316 , NCONV:            1
+Lanczos iteration:   317 , NCONV:            1
+Lanczos iteration:   318 , NCONV:            1
+Lanczos iteration:   319 , NCONV:            1
+Lanczos iteration:   320 , NCONV:            1
+Lanczos iteration:   321 , NCONV:            1
+Lanczos iteration:   322 , NCONV:            1
+Lanczos iteration:   323 , NCONV:            1
+Lanczos iteration:   324 , NCONV:            1
+Lanczos iteration:   325 , NCONV:            1
+Lanczos iteration:   326 , NCONV:            1
+Lanczos iteration:   327 , NCONV:            1
+Lanczos iteration:   328 , NCONV:            1
+Lanczos iteration:   329 , NCONV:            1
+Lanczos iteration:   330 , NCONV:            1
+Lanczos iteration:   331 , NCONV:            1
+Lanczos iteration:   332 , NCONV:            1
+Lanczos iteration:   333 , NCONV:            1
+Lanczos iteration:   334 , NCONV:            1
+Lanczos iteration:   335 , NCONV:            1
+Lanczos iteration:   336 , NCONV:            1
+Lanczos iteration:   337 , NCONV:            1
+Lanczos iteration:   338 , NCONV:            1
+Lanczos iteration:   339 , NCONV:            1
+Lanczos iteration:   340 , NCONV:            1
+Lanczos iteration:   341 , NCONV:            1
+Lanczos iteration:   342 , NCONV:            1
+Lanczos iteration:   343 , NCONV:            1
+Lanczos iteration:   344 , NCONV:            1
+Lanczos iteration:   345 , NCONV:            1
+Lanczos iteration:   346 , NCONV:            1
+Lanczos iteration:   347 , NCONV:            1
+Lanczos iteration:   348 , NCONV:            1
+Lanczos iteration:   349 , NCONV:            1
+Lanczos iteration:   350 , NCONV:            1
+Lanczos iteration:   351 , NCONV:            1
+Lanczos iteration:   352 , NCONV:            1
+Lanczos iteration:   353 , NCONV:            1
+Lanczos iteration:   354 , NCONV:            1
+Lanczos iteration:   355 , NCONV:            1
+Lanczos iteration:   356 , NCONV:            1
+Lanczos iteration:   357 , NCONV:            1
+Lanczos iteration:   358 , NCONV:            1
+Lanczos iteration:   359 , NCONV:            1
+Lanczos iteration:   360 , NCONV:            1
+Lanczos iteration:   361 , NCONV:            1
+Lanczos iteration:   362 , NCONV:            1
+Lanczos iteration:   363 , NCONV:            1
+Lanczos iteration:   364 , NCONV:            1
+Lanczos iteration:   365 , NCONV:            1
+Lanczos iteration:   366 , NCONV:            1
+Lanczos iteration:   367 , NCONV:            1
+Lanczos iteration:   368 , NCONV:            1
+Lanczos iteration:   369 , NCONV:            1
+Lanczos iteration:   370 , NCONV:            1
+Lanczos iteration:   371 , NCONV:            1
+Lanczos iteration:   372 , NCONV:            1
+Lanczos iteration:   373 , NCONV:            1
+Lanczos iteration:   374 , NCONV:            1
+Lanczos iteration:   375 , NCONV:            1
+Lanczos iteration:   376 , NCONV:            1
+Lanczos iteration:   377 , NCONV:            1
+Lanczos iteration:   378 , NCONV:            1
+Lanczos iteration:   379 , NCONV:            1
+Lanczos iteration:   380 , NCONV:            1
+Lanczos iteration:   381 , NCONV:            1
+Lanczos iteration:   382 , NCONV:            1
+Lanczos iteration:   383 , NCONV:            1
+Lanczos iteration:   384 , NCONV:            1
+Lanczos iteration:   385 , NCONV:            1
+Lanczos iteration:   386 , NCONV:            1
+Lanczos iteration:   387 , NCONV:            1
+Lanczos iteration:   388 , NCONV:            1
+Lanczos iteration:   389 , NCONV:            1
+Lanczos iteration:   390 , NCONV:            1
+Lanczos iteration:   391 , NCONV:            1
+Lanczos iteration:   392 , NCONV:            1
+Lanczos iteration:   393 , NCONV:            1
+Lanczos iteration:   394 , NCONV:            1
+Lanczos iteration:   395 , NCONV:            1
+Lanczos iteration:   396 , NCONV:            1
+Lanczos iteration:   397 , NCONV:            1
+Lanczos iteration:   398 , NCONV:            1
+Lanczos iteration:   399 , NCONV:            1
+Lanczos iteration:   400 , NCONV:            1
+Lanczos iteration:   401 , NCONV:            1
+Lanczos iteration:   402 , NCONV:            1
+Lanczos iteration:   403 , NCONV:            1
+Lanczos iteration:   404 , NCONV:            1
+Lanczos iteration:   405 , NCONV:            1
+Lanczos iteration:   406 , NCONV:            1
+Lanczos iteration:   407 , NCONV:            1
+Lanczos iteration:   408 , NCONV:            1
+Lanczos iteration:   409 , NCONV:            1
+Lanczos iteration:   410 , NCONV:            1
+Lanczos iteration:   411 , NCONV:            1
+Lanczos iteration:   412 , NCONV:            1
+Lanczos iteration:   413 , NCONV:            1
+Lanczos iteration:   414 , NCONV:            1
+Lanczos iteration:   415 , NCONV:            1
+Lanczos iteration:   416 , NCONV:            1
+Lanczos iteration:   417 , NCONV:            1
+Lanczos iteration:   418 , NCONV:            1
+Lanczos iteration:   419 , NCONV:            1
+Lanczos iteration:   420 , NCONV:            1
+Lanczos iteration:   421 , NCONV:            1
+Lanczos iteration:   422 , NCONV:            1
+Lanczos iteration:   423 , NCONV:            1
+Lanczos iteration:   424 , NCONV:            1
+Lanczos iteration:   425 , NCONV:            1
+Lanczos iteration:   426 , NCONV:            1
+Lanczos iteration:   427 , NCONV:            1
+Lanczos iteration:   428 , NCONV:            1
+Lanczos iteration:   429 , NCONV:            1
+Lanczos iteration:   430 , NCONV:            1
+Lanczos iteration:   431 , NCONV:            1
+Lanczos iteration:   432 , NCONV:            1
+Lanczos iteration:   433 , NCONV:            1
+Lanczos iteration:   434 , NCONV:            1
+Lanczos iteration:   435 , NCONV:            1
+Lanczos iteration:   436 , NCONV:            1
+Lanczos iteration:   437 , NCONV:            1
+Lanczos iteration:   438 , NCONV:            1
+Lanczos iteration:   439 , NCONV:            1
+Lanczos iteration:   440 , NCONV:            1
+Lanczos iteration:   441 , NCONV:            1
+Lanczos iteration:   442 , NCONV:            1
+Lanczos iteration:   443 , NCONV:            1
+Lanczos iteration:   444 , NCONV:            1
+Lanczos iteration:   445 , NCONV:            1
+Lanczos iteration:   446 , NCONV:            1
+Lanczos iteration:   447 , NCONV:            1
+Lanczos iteration:   448 , NCONV:            1
+Lanczos iteration:   449 , NCONV:            1
+Lanczos iteration:   450 , NCONV:            1
+Lanczos iteration:   451 , NCONV:            1
+Lanczos iteration:   452 , NCONV:            1
+Lanczos iteration:   453 , NCONV:            1
+Lanczos iteration:   454 , NCONV:            1
+Lanczos iteration:   455 , NCONV:            1
+Lanczos iteration:   456 , NCONV:            1
+Lanczos iteration:   457 , NCONV:            1
+Lanczos iteration:   458 , NCONV:            1
+Lanczos iteration:   459 , NCONV:            1
+Lanczos iteration:   460 , NCONV:            1
+Lanczos iteration:   461 , NCONV:            1
+Lanczos iteration:   462 , NCONV:            1
+Lanczos iteration:   463 , NCONV:            1
+Lanczos iteration:   464 , NCONV:            1
+Lanczos iteration:   465 , NCONV:            1
+Lanczos iteration:   466 , NCONV:            1
+Lanczos iteration:   467 , NCONV:            1
+Lanczos iteration:   468 , NCONV:            1
+Lanczos iteration:   469 , NCONV:            1
+Lanczos iteration:   470 , NCONV:            1
+Lanczos iteration:   471 , NCONV:            1
+Lanczos iteration:   472 , NCONV:            1
+Lanczos iteration:   473 , NCONV:            1
+Lanczos iteration:   474 , NCONV:            1
+Lanczos iteration:   475 , NCONV:            1
+Lanczos iteration:   476 , NCONV:            1
+Lanczos iteration:   477 , NCONV:            1
+Lanczos iteration:   478 , NCONV:            1
+Lanczos iteration:   479 , NCONV:            1
+Lanczos iteration:   480 , NCONV:            1
+Lanczos iteration:   481 , NCONV:            1
+Lanczos iteration:   482 , NCONV:            1
+slurmstepd: error: *** STEP 28674755.0 ON cdr1933 CANCELLED AT 2022-03-11T12:20:16 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 28674755 ON cdr1933 CANCELLED AT 2022-03-11T12:20:16 DUE TO TIME LIMIT ***

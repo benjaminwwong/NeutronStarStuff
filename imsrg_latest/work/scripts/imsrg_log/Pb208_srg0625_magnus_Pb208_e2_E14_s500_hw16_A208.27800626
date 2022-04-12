@@ -1,0 +1,33 @@
+NTHREADS = 48
+######  imsrg++ build version: devel_1ae9c23
+====================  Parameters (defaults set in Parameters.hh) ===================
+smax => 500
+dsmax => 0.5
+omega_norm_max => 0.25
+file2e1max => 14
+file2e2max => 28
+file2lmax => 10
+file3e1max => 14
+file3e2max => 28
+file3e3max => 14
+method => magnus
+reference => Pb208
+emax => 2
+e3max => 14
+2bme => input/chi2b_srg0625_eMax14_lMax10_hwHO016.me2j.gz
+3bme => input/me3j/chi2b3b400cD-02cE0098_hwconv036_srg0625ho40J_eMax14_EMax14_hwHO016.me3j.gz
+LECs => srg0625
+hw => 16
+A => 208
+valence_space => Pb208
+Operators => ISM,
+flowfile => output/BCH_Pb208_srg0625_magnus_Pb208_e2_E14_s500_hw16_A208.dat
+intfile => output/Pb208_srg0625_magnus_Pb208_e2_E14_s500_hw16_A208
+====================================================================================
+trouble reading input/chi2b_srg0625_eMax14_lMax10_hwHO016.me2j.gz  fmt2 = me2j   exiting. 
+srun: error: cdr1532: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=27800626.0
+
+real	0m1.381s
+user	0m0.150s
+sys	0m0.026s

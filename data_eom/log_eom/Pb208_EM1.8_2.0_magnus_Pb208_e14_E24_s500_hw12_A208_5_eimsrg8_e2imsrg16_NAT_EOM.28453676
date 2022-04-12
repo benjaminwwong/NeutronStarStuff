@@ -1,0 +1,111 @@
+NTHREADS = 48
+ /home/b62wong/scratch/output/Pb208_EM1.8_2.0_magnus_Pb208_e14_E24_s500_hw12_A208_5_eimsrg8_e2imsrg16_NAT.snt                                                                                            
+ The total number of orbits:           90
+
+====================
+Reference: 208Pb
+====================
+ PROTONS:   82
+ NEUTRONS: 126
+ eMax=  8
+ hw= 12
+ TWO BODY INTERACTION: /home/b62wong/scratch/output/Pb208_EM1.8_2.0_magnus_Pb208_e14_E24_s500_hw12_A208_5_eimsrg8_e2imsrg16_NAT.snt                                                                                            
+
+ FILLED PROTON ORBITALS:
+     0s 1
+     0p 3
+     0p 1
+     0d 5
+     0d 3
+     1s 1
+     0f 7
+     0f 5
+     1p 3
+     1p 1
+     0g 9
+     0g 7
+     1d 5
+     1d 3
+     2s 1
+     0h11
+
+ FILLED NEUTRON ORBITALS:
+     0s 1
+     0p 3
+     0p 1
+     0d 5
+     0d 3
+     1s 1
+     0f 7
+     0f 5
+     1p 3
+     1p 1
+     0g 9
+     0g 7
+     1d 5
+     1d 3
+     2s 1
+     0h11
+     0h 9
+     1f 7
+     1f 5
+     2p 3
+     2p 1
+     0x13
+
+ MEMORY OF 2 BODY STORAGE IS:    38.407653808593750      MB
+ reading 2-body Hamiltonian
+ Ntot          90
+ input ZeroBody part of Hamiltonian is:   -1429.7200000000000     
+
+ TIME:     00:00:17
+
+ ===================================================================
+   iter        s            E0          E0+MBPT(2)      |MBPT(2)|  
+ ===================================================================
+ STARTING EXCITED STATES CALCULATION
+ Tensor Operator Memory =   5.6273788213729858E-003 GB
+ Tensor Operator Size=       755118
+
+       EXECUTING EOM CALCULATION FOR EXCITED STATES: J=0 P=0 for 208Pb
+
+ 1p1h Amplitudes:           62
+ 2p2h Amplitudes:       360368
+Lanczos iteration:     0Lanczos iteration:     1Lanczos iteration:     2
+
+Ground State Energy:  -1429.720000000
+
+EXCITED STATE ENERGIES: J=0 P=0
+ ==============================================
+       dE           E_0 + dE         n(1p1h)   
+ ==============================================
+    85.129316728 -1344.590683272     0.000654032
+
+ TIME:     00:00:23
+
+
+ TIME:     00:00:23
+
+ not implemented
+ reading transition operator...
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+#0  0x2b37920be2fd in ???
+#1  0x2b37920bd543 in ???
+#2  0x2b379305d27f in ???
+#3  0x2b37931700ff in ???
+#4  0x51d473 in ???
+#5  0x52f7ab in ???
+#6  0x40280c in ???
+#7  0x2b379304a2df in ???
+#8  0x402849 in ???
+	at ../sysdeps/x86_64/start.S:120
+#9  0xffffffffffffffff in ???
+srun: error: cdr1937: task 0: Segmentation fault (core dumped)
+srun: launch/slurm: _step_signal: Terminating StepId=28453676.0
+
+real	1m6.664s
+user	0m0.158s
+sys	0m0.016s

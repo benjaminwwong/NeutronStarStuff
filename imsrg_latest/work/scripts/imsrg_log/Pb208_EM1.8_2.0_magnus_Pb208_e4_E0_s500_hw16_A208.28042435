@@ -1,0 +1,44 @@
+NTHREADS = 48
+######  imsrg++ build version: devel_1ae9c23
+====================  Parameters (defaults set in Parameters.hh) ===================
+smax => 500
+dsmax => 0.5
+omega_norm_max => 0.25
+file2e1max => 14
+file2e2max => 28
+file2lmax => 10
+file3e1max => 14
+file3e2max => 28
+file3e3max => 14
+method => magnus
+reference => Pb208
+emax => 4
+Unkown parameter: e2max => 8
+e3max => 0
+2bme => /home/b62wong/projects/def-holt/shared/me2j/TwBME-HO_NN-only_N3LO_EM500_srg1.80_hw16_emax18_e2max36.me2j.gz
+3bme => /home/b62wong/projects/def-holt/shared/me3j/NO2B_ThBME_EM1.8_2.0_3NFJmax15_IS_hw16_ms18_36_24.stream.bin
+LECs => EM1.8_2.0
+hw => 16
+A => 208
+valence_space => Pb208
+Operators => ISM,
+flowfile => output/BCH_Pb208_EM1.8_2.0_magnus_Pb208_e4_E0_s500_hw16_A208.dat
+intfile => output/Pb208_EM1.8_2.0_magnus_Pb208_e4_E0_s500_hw16_A208
+====================================================================================
+Setting scratch dir to 
+Trouble! Model space not big enough to fill A=208 Z=82  emax = 4
+Trouble! Model space not big enough to fill A=208 Z=82  emax = 4
+Reading interactions...
+Read 27336 matrix elements 
+done reading 2N
+Begin AllocateThreeBody() in ThreeBodyStorage_iso.cc with E3max = 0 norbits = 30
+Allocated 25 three body matrix elements (9.31323e-08 GB), 
+  number of buckets in hash table: 2  and load factor = 0.5  estimated storage ~ 4.47035e-08 GB
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=28042435.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: cdr2416: task 0: Out Of Memory
+srun: launch/slurm: _step_signal: Terminating StepId=28042435.0
+
+real	0m7.313s
+user	0m0.154s
+sys	0m0.017s
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=28042435.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

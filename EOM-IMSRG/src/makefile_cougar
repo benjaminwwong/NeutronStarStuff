@@ -1,0 +1,71 @@
+FC = gfortran $(FFLAGS)  
+CXX = g++ $(CXXFLAGS) 
+
+p1 = run_IMSRG
+p4 = run_EOM
+p2 = get_HO_energies
+p3 = truncate
+
+FFLAGS = -O3 -fopenmp
+TFLAGS = -g -O0 -fbounds-check -fopenmp
+PFLAGS = -O3 -pg
+
+CXXFLAGS = -std=c++11 -O3
+
+LIBS =  -llapack -lblas -larpack -lz -L/home/bhu/ARPACK
+#LIBS =  -llapack -lblas -lz -L/home/bhu/ARPACK/
+
+obfiles = bin
+modfiles = md
+
+F90SRC=$(wildcard *.f90)
+OBJ = $(patsubst %.f90, $(obfiles)/%.o, $(wildcard *.f90))  
+OBJ_f = $(patsubst %.f, $(obfiles)/%.o, $(wildcard *.f))  
+
+all: ${p1} ${p4}
+#${p1}: $(OBJ_f) $(OBJ)
+${p1}: bin/anglib.o bin/EOM_IMSRG.o bin/EOM_TS_commutators.o bin/EOM_dTZ_commutators.o bin/EOM_scalar_commutators.o bin/HF_mod.o bin/IMSRG_CANONICAL.o bin/IMSRG_MAGNUS.o bin/IMSRG_ODE.o bin/TS_commutators.o bin/adams_ode.o bin/basic_IMSRG.o bin/brute_force_testing.o bin/commutators.o bin/cross_coupled.o bin/deuteron.o bin/gaulag.o bin/generators.o bin/gzipmod.o bin/interaction_IO.o bin/isospin_operators.o bin/main_IMSRG.o bin/operator_commutators.o bin/operators.o bin/response.o bin/tensor_products.o bin/three_body_routines.o
+	${FC} $^ -o ${p1} -J$(modfiles) ${LIBS}
+
+${p4}: bin/anglib.o bin/EOM_IMSRG.o bin/EOM_TS_commutators.o bin/EOM_dTZ_commutators.o bin/EOM_scalar_commutators.o bin/HF_mod.o bin/IMSRG_CANONICAL.o bin/IMSRG_MAGNUS.o bin/IMSRG_ODE.o bin/TS_commutators.o bin/adams_ode.o bin/basic_IMSRG.o bin/brute_force_testing.o bin/commutators.o bin/cross_coupled.o bin/deuteron.o bin/gaulag.o bin/generators.o bin/gzipmod.o bin/interaction_IO.o bin/isospin_operators.o bin/main_EOM.o bin/operator_commutators.o bin/operators.o bin/response.o bin/tensor_products.o bin/three_body_routines.o
+	${FC} $^ -o ${p4} -J$(modfiles) ${LIBS}
+
+$(OBJ): | $(obfiles)
+$(OBJ_f): | $(obfiles)
+
+$(obfiles):
+	@mkdir -p $@
+	@mkdir -p $(modfiles)
+
+$(obfiles)/%.o: %.f
+	${FC} -c -o $@ $< -J$(modfiles) ${LIBS}
+
+$(obfiles)/%.o: %.f90
+	${FC} -c -o $@ $< -J$(modfiles) ${LIBS}
+
+# nice gift from FEI to detect dependencies automatically
+dependencies.mk: $(F90SRC)
+	@for f in $^; do \
+	    printf "%s:" "$(obfiles)/$${f%.f90}.o"; \
+	    awk -v p="$(obfiles)/" \
+	        '$$1 == "use" && NF == 2 { printf " %s%s.o",p,$$2 }' "$$f"; \
+	    echo; \
+	done >$@.tmp; \
+	mv $@.tmp $@
+ 
+-include dependencies.mk
+
+truncate: truncate_interaction.cpp
+	${CC} truncate_interaction.cpp -o ${p3}
+clean:
+	rm -f ${p1} $
+	rm -f ${p4} $
+	rm -f ${p2} $
+	rm -f ${p3} $
+	rm -f *.o
+	rm -f *.mod
+	rm -f *~
+	rm -rf $(obfiles)
+	rm -rf $(modfiles)
+	rm -f dependencies.mk
+

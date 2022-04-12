@@ -1,0 +1,24 @@
+#!/bin/bash
+#PBS -q batchmpi
+#PBS -l mem=60gb,nodes=1:ppn=12,walltime=288:00:00
+#PBS -N EOM
+#PBS -j oe
+#PBS -k oe
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/scyld/openmpi/1.10/gnu/lib:/opt/openblas/0.2.14/lib:/opt/boost/1.58.0/lib:/opt/gsl/2.1/lib:/opt/intel/mkl/10.2.2.025/lib/em64t:/opt/intel/mkl/10.2.2.025/lib/64:/opt/hdf5/1.8.15-gcc5.2.0/lib:/opt/gcc/7.5.0/lib64:/opt/gcc/7.5.0/lib:/opt/intel/Compiler/11.1/064/lib/intel64:/opt/anaconda/anaconda2-2.4.0/lib/
+
+export PATH=/home/bhu/IMSRG/EOM-IMSRG/src:$PATH
+export IMSRG_INIFILES=/home/bhu/IMSRG/EOM-IMSRG/inifiles
+export IMSRG_ME_FILES=/home/bhu/IMSRG/EOM-IMSRG/TBME_inputs
+export IMSRG_SP_FILES=/home/bhu/IMSRG/EOM-IMSRG/sp_inputs
+export IMSRG_SCRATCH=/home/bhu/IMSRG/EOM-IMSRG/TBME_inputs
+export IMSRG_OPERATOR_DUMP=/home/bhu/IMSRG/EOM-IMSRG/TBME_inputs
+export IMSRG_OUTPUT=/home/bhu/IMSRG/EOM-IMSRG/output
+
+wkdr=$PBS_O_WORKDIR
+cd ${wkdr}
+echo ${wkdr}
+
+./../src/run_EOM  eom_e12_O16.ini
+
+echo "The code is finished!"

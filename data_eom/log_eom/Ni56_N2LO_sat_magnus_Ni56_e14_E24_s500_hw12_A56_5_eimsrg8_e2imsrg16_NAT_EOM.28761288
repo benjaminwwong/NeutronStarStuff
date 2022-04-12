@@ -1,0 +1,1599 @@
+NTHREADS = 48
+ /home/b62wong/scratch/output/Ni56_N2LO_sat_magnus_Ni56_e14_E24_s500_hw12_A56_5_eimsrg8_e2imsrg16_NAT.snt                                                                                                
+ The total number of orbits:           90
+
+====================
+Reference: 56Ni 
+====================
+ PROTONS:   28
+ NEUTRONS:  28
+ eMax=  8
+ hw= 12
+ TWO BODY INTERACTION: /home/b62wong/scratch/output/Ni56_N2LO_sat_magnus_Ni56_e14_E24_s500_hw12_A56_5_eimsrg8_e2imsrg16_NAT.snt                                                                                                
+
+ FILLED PROTON ORBITALS:
+     0s 1
+     0p 3
+     0p 1
+     0d 5
+     0d 3
+     1s 1
+     0f 7
+
+ FILLED NEUTRON ORBITALS:
+     0s 1
+     0p 3
+     0p 1
+     0d 5
+     0d 3
+     1s 1
+     0f 7
+
+ MEMORY OF 2 BODY STORAGE IS:    45.523521423339844      MB
+ reading 2-body Hamiltonian
+ Ntot          90
+ input ZeroBody part of Hamiltonian is:   -430.83499999999998     
+
+ TIME:     00:00:18
+
+ ===================================================================
+   iter        s            E0          E0+MBPT(2)      |MBPT(2)|  
+ ===================================================================
+ STARTING EXCITED STATES CALCULATION
+ Tensor Operator Memory =   3.3126547932624817E-003 GB
+ Tensor Operator Size=       444273
+
+       EXECUTING EOM CALCULATION FOR EXCITED STATES: J=2 P=0 for 56Ni 
+
+ 1p1h Amplitudes:          136
+ 2p2h Amplitudes:       335867
+Lanczos iteration:     0Lanczos iteration:     1Lanczos iteration:     2
+
+Ground State Energy:   -430.835000000
+
+EXCITED STATE ENERGIES: J=2 P=0
+ ==============================================
+       dE           E_0 + dE         n(1p1h)   
+ ==============================================
+   135.514312722  -295.320687278     0.001819873
+
+ TIME:     00:00:23
+
+
+ TIME:     00:00:23
+
+ Tensor Operator Memory =  0.15033412724733353      GB
+ Tensor Operator Size=     20171189
+ reading transition operator...
+ Read operator with Human format: /home/b62wong/scratch/output/Ni56_N2LO_sat_magnus_Ni56_e14_E24_s500_hw12_A56_5_eimsrg8_e2imsrg16_NATISQ.op
+
+ TIME:     00:01:19
+
+
+ =============================================================================
+         E_in                E_out         B(E2;2+ -> GS)      B(E2;GS -> 2+)
+ =============================================================================
+   135.514312721910     0.000000000000     0.029885038782     0.149425193910
+
+
+
+ ===========================================
+  COMPUTING E2 RESPONSE FUNCTION FOR 56Ni 
+ ===========================================
+ 1p1h Amplitudes:          136
+ 2p2h Amplitudes:       335867
+Lanczos iteration:     0 , NCONV:            1
+Lanczos iteration:     1 , NCONV:            1
+Lanczos iteration:     2 , NCONV:            1
+Lanczos iteration:     3 , NCONV:            1
+Lanczos iteration:     4 , NCONV:            1
+Lanczos iteration:     5 , NCONV:            1
+Lanczos iteration:     6 , NCONV:            1
+Lanczos iteration:     7 , NCONV:            1
+Lanczos iteration:     8 , NCONV:            1
+Lanczos iteration:     9 , NCONV:            1
+Lanczos iteration:    10 , NCONV:            1
+Lanczos iteration:    11 , NCONV:            1
+Lanczos iteration:    12 , NCONV:            1
+Lanczos iteration:    13 , NCONV:            1
+Lanczos iteration:    14 , NCONV:            1
+Lanczos iteration:    15 , NCONV:            1
+Lanczos iteration:    16 , NCONV:            1
+Lanczos iteration:    17 , NCONV:            1
+Lanczos iteration:    18 , NCONV:            1
+Lanczos iteration:    19 , NCONV:            1
+Lanczos iteration:    20 , NCONV:            1
+Lanczos iteration:    21 , NCONV:            1
+Lanczos iteration:    22 , NCONV:            1
+Lanczos iteration:    23 , NCONV:            1
+Lanczos iteration:    24 , NCONV:            1
+Lanczos iteration:    25 , NCONV:            1
+Lanczos iteration:    26 , NCONV:            1
+Lanczos iteration:    27 , NCONV:            1
+Lanczos iteration:    28 , NCONV:            1
+Lanczos iteration:    29 , NCONV:            1
+Lanczos iteration:    30 , NCONV:            1
+Lanczos iteration:    31 , NCONV:            1
+Lanczos iteration:    32 , NCONV:            1
+Lanczos iteration:    33 , NCONV:            1
+Lanczos iteration:    34 , NCONV:            1
+Lanczos iteration:    35 , NCONV:            1
+Lanczos iteration:    36 , NCONV:            1
+Lanczos iteration:    37 , NCONV:            1
+Lanczos iteration:    38 , NCONV:            1
+Lanczos iteration:    39 , NCONV:            1
+Lanczos iteration:    40 , NCONV:            1
+Lanczos iteration:    41 , NCONV:            1
+Lanczos iteration:    42 , NCONV:            1
+Lanczos iteration:    43 , NCONV:            1
+Lanczos iteration:    44 , NCONV:            1
+Lanczos iteration:    45 , NCONV:            1
+Lanczos iteration:    46 , NCONV:            1
+Lanczos iteration:    47 , NCONV:            1
+Lanczos iteration:    48 , NCONV:            1
+Lanczos iteration:    49 , NCONV:            1
+Lanczos iteration:    50 , NCONV:            1
+Lanczos iteration:    51 , NCONV:            1
+Lanczos iteration:    52 , NCONV:            1
+Lanczos iteration:    53 , NCONV:            1
+Lanczos iteration:    54 , NCONV:            1
+Lanczos iteration:    55 , NCONV:            1
+Lanczos iteration:    56 , NCONV:            1
+Lanczos iteration:    57 , NCONV:            1
+Lanczos iteration:    58 , NCONV:            1
+Lanczos iteration:    59 , NCONV:            1
+Lanczos iteration:    60 , NCONV:            1
+Lanczos iteration:    61 , NCONV:            1
+Lanczos iteration:    62 , NCONV:            1
+Lanczos iteration:    63 , NCONV:            1
+Lanczos iteration:    64 , NCONV:            1
+Lanczos iteration:    65 , NCONV:            1
+Lanczos iteration:    66 , NCONV:            1
+Lanczos iteration:    67 , NCONV:            1
+Lanczos iteration:    68 , NCONV:            1
+Lanczos iteration:    69 , NCONV:            1
+Lanczos iteration:    70 , NCONV:            1
+Lanczos iteration:    71 , NCONV:            1
+Lanczos iteration:    72 , NCONV:            1
+Lanczos iteration:    73 , NCONV:            1
+Lanczos iteration:    74 , NCONV:            1
+Lanczos iteration:    75 , NCONV:            1
+Lanczos iteration:    76 , NCONV:            1
+Lanczos iteration:    77 , NCONV:            1
+Lanczos iteration:    78 , NCONV:            1
+Lanczos iteration:    79 , NCONV:            1
+Lanczos iteration:    80 , NCONV:            1
+Lanczos iteration:    81 , NCONV:            1
+Lanczos iteration:    82 , NCONV:            1
+Lanczos iteration:    83 , NCONV:            1
+Lanczos iteration:    84 , NCONV:            1
+Lanczos iteration:    85 , NCONV:            1
+Lanczos iteration:    86 , NCONV:            1
+Lanczos iteration:    87 , NCONV:            1
+Lanczos iteration:    88 , NCONV:            1
+Lanczos iteration:    89 , NCONV:            1
+Lanczos iteration:    90 , NCONV:            1
+Lanczos iteration:    91 , NCONV:            1
+Lanczos iteration:    92 , NCONV:            1
+Lanczos iteration:    93 , NCONV:            1
+Lanczos iteration:    94 , NCONV:            1
+Lanczos iteration:    95 , NCONV:            1
+Lanczos iteration:    96 , NCONV:            1
+Lanczos iteration:    97 , NCONV:            1
+Lanczos iteration:    98 , NCONV:            1
+Lanczos iteration:    99 , NCONV:            1
+Lanczos iteration:   100 , NCONV:            1
+Lanczos iteration:   101 , NCONV:            1
+Lanczos iteration:   102 , NCONV:            1
+Lanczos iteration:   103 , NCONV:            1
+Lanczos iteration:   104 , NCONV:            1
+Lanczos iteration:   105 , NCONV:            1
+Lanczos iteration:   106 , NCONV:            1
+Lanczos iteration:   107 , NCONV:            1
+Lanczos iteration:   108 , NCONV:            1
+Lanczos iteration:   109 , NCONV:            1
+Lanczos iteration:   110 , NCONV:            1
+Lanczos iteration:   111 , NCONV:            1
+Lanczos iteration:   112 , NCONV:            1
+Lanczos iteration:   113 , NCONV:            1
+Lanczos iteration:   114 , NCONV:            1
+Lanczos iteration:   115 , NCONV:            1
+Lanczos iteration:   116 , NCONV:            1
+Lanczos iteration:   117 , NCONV:            1
+Lanczos iteration:   118 , NCONV:            1
+Lanczos iteration:   119 , NCONV:            1
+Lanczos iteration:   120 , NCONV:            1
+Lanczos iteration:   121 , NCONV:            1
+Lanczos iteration:   122 , NCONV:            1
+Lanczos iteration:   123 , NCONV:            1
+Lanczos iteration:   124 , NCONV:            1
+Lanczos iteration:   125 , NCONV:            1
+Lanczos iteration:   126 , NCONV:            1
+Lanczos iteration:   127 , NCONV:            1
+Lanczos iteration:   128 , NCONV:            1
+Lanczos iteration:   129 , NCONV:            1
+Lanczos iteration:   130 , NCONV:            1
+Lanczos iteration:   131 , NCONV:            1
+Lanczos iteration:   132 , NCONV:            1
+Lanczos iteration:   133 , NCONV:            1
+Lanczos iteration:   134 , NCONV:            1
+Lanczos iteration:   135 , NCONV:            1
+Lanczos iteration:   136 , NCONV:            1
+Lanczos iteration:   137 , NCONV:            1
+Lanczos iteration:   138 , NCONV:            1
+Lanczos iteration:   139 , NCONV:            1
+Lanczos iteration:   140 , NCONV:            1
+Lanczos iteration:   141 , NCONV:            1
+Lanczos iteration:   142 , NCONV:            1
+Lanczos iteration:   143 , NCONV:            1
+Lanczos iteration:   144 , NCONV:            1
+Lanczos iteration:   145 , NCONV:            1
+Lanczos iteration:   146 , NCONV:            1
+Lanczos iteration:   147 , NCONV:            1
+Lanczos iteration:   148 , NCONV:            1
+Lanczos iteration:   149 , NCONV:            1
+Lanczos iteration:   150 , NCONV:            1
+Lanczos iteration:   151 , NCONV:            1
+Lanczos iteration:   152 , NCONV:            1
+Lanczos iteration:   153 , NCONV:            1
+Lanczos iteration:   154 , NCONV:            1
+Lanczos iteration:   155 , NCONV:            1
+Lanczos iteration:   156 , NCONV:            1
+Lanczos iteration:   157 , NCONV:            1
+Lanczos iteration:   158 , NCONV:            1
+Lanczos iteration:   159 , NCONV:            1
+Lanczos iteration:   160 , NCONV:            1
+Lanczos iteration:   161 , NCONV:            1
+Lanczos iteration:   162 , NCONV:            1
+Lanczos iteration:   163 , NCONV:            1
+Lanczos iteration:   164 , NCONV:            1
+Lanczos iteration:   165 , NCONV:            1
+Lanczos iteration:   166 , NCONV:            1
+Lanczos iteration:   167 , NCONV:            1
+Lanczos iteration:   168 , NCONV:            1
+Lanczos iteration:   169 , NCONV:            1
+Lanczos iteration:   170 , NCONV:            1
+Lanczos iteration:   171 , NCONV:            1
+Lanczos iteration:   172 , NCONV:            1
+Lanczos iteration:   173 , NCONV:            1
+Lanczos iteration:   174 , NCONV:            1
+Lanczos iteration:   175 , NCONV:            1
+Lanczos iteration:   176 , NCONV:            1
+Lanczos iteration:   177 , NCONV:            1
+Lanczos iteration:   178 , NCONV:            1
+Lanczos iteration:   179 , NCONV:            1
+Lanczos iteration:   180 , NCONV:            1
+Lanczos iteration:   181 , NCONV:            1
+Lanczos iteration:   182 , NCONV:            1
+Lanczos iteration:   183 , NCONV:            1
+Lanczos iteration:   184 , NCONV:            1
+Lanczos iteration:   185 , NCONV:            1
+Lanczos iteration:   186 , NCONV:            1
+Lanczos iteration:   187 , NCONV:            1
+Lanczos iteration:   188 , NCONV:            1
+Lanczos iteration:   189 , NCONV:            1
+Lanczos iteration:   190 , NCONV:            1
+Lanczos iteration:   191 , NCONV:            1
+Lanczos iteration:   192 , NCONV:            1
+Lanczos iteration:   193 , NCONV:            1
+Lanczos iteration:   194 , NCONV:            1
+Lanczos iteration:   195 , NCONV:            1
+Lanczos iteration:   196 , NCONV:            1
+Lanczos iteration:   197 , NCONV:            1
+Lanczos iteration:   198 , NCONV:            1
+Lanczos iteration:   199 , NCONV:            1
+Lanczos iteration:   200 , NCONV:            1
+Lanczos iteration:   201 , NCONV:            1
+Lanczos iteration:   202 , NCONV:            1
+Lanczos iteration:   203 , NCONV:            1
+Lanczos iteration:   204 , NCONV:            1
+Lanczos iteration:   205 , NCONV:            1
+Lanczos iteration:   206 , NCONV:            1
+Lanczos iteration:   207 , NCONV:            1
+Lanczos iteration:   208 , NCONV:            1
+Lanczos iteration:   209 , NCONV:            1
+Lanczos iteration:   210 , NCONV:            1
+Lanczos iteration:   211 , NCONV:            1
+Lanczos iteration:   212 , NCONV:            1
+Lanczos iteration:   213 , NCONV:            1
+Lanczos iteration:   214 , NCONV:            1
+Lanczos iteration:   215 , NCONV:            1
+Lanczos iteration:   216 , NCONV:            1
+Lanczos iteration:   217 , NCONV:            1
+Lanczos iteration:   218 , NCONV:            1
+Lanczos iteration:   219 , NCONV:            1
+Lanczos iteration:   220 , NCONV:            1
+Lanczos iteration:   221 , NCONV:            1
+Lanczos iteration:   222 , NCONV:            1
+Lanczos iteration:   223 , NCONV:            1
+Lanczos iteration:   224 , NCONV:            1
+Lanczos iteration:   225 , NCONV:            1
+Lanczos iteration:   226 , NCONV:            1
+Lanczos iteration:   227 , NCONV:            1
+Lanczos iteration:   228 , NCONV:            1
+Lanczos iteration:   229 , NCONV:            1
+Lanczos iteration:   230 , NCONV:            1
+Lanczos iteration:   231 , NCONV:            1
+Lanczos iteration:   232 , NCONV:            1
+Lanczos iteration:   233 , NCONV:            1
+Lanczos iteration:   234 , NCONV:            1
+Lanczos iteration:   235 , NCONV:            1
+Lanczos iteration:   236 , NCONV:            1
+Lanczos iteration:   237 , NCONV:            1
+Lanczos iteration:   238 , NCONV:            1
+Lanczos iteration:   239 , NCONV:            1
+Lanczos iteration:   240 , NCONV:            1
+Lanczos iteration:   241 , NCONV:            1
+Lanczos iteration:   242 , NCONV:            1
+Lanczos iteration:   243 , NCONV:            1
+Lanczos iteration:   244 , NCONV:            1
+Lanczos iteration:   245 , NCONV:            1
+Lanczos iteration:   246 , NCONV:            1
+Lanczos iteration:   247 , NCONV:            1
+Lanczos iteration:   248 , NCONV:            1
+Lanczos iteration:   249 , NCONV:            1
+Lanczos iteration:   250 , NCONV:            1
+Lanczos iteration:   251 , NCONV:            1
+Lanczos iteration:   252 , NCONV:            1
+Lanczos iteration:   253 , NCONV:            1
+Lanczos iteration:   254 , NCONV:            1
+Lanczos iteration:   255 , NCONV:            1
+Lanczos iteration:   256 , NCONV:            1
+Lanczos iteration:   257 , NCONV:            1
+Lanczos iteration:   258 , NCONV:            1
+Lanczos iteration:   259 , NCONV:            1
+Lanczos iteration:   260 , NCONV:            1
+Lanczos iteration:   261 , NCONV:            1
+Lanczos iteration:   262 , NCONV:            1
+Lanczos iteration:   263 , NCONV:            1
+Lanczos iteration:   264 , NCONV:            1
+Lanczos iteration:   265 , NCONV:            1
+Lanczos iteration:   266 , NCONV:            1
+Lanczos iteration:   267 , NCONV:            1
+Lanczos iteration:   268 , NCONV:            1
+Lanczos iteration:   269 , NCONV:            1
+Lanczos iteration:   270 , NCONV:            1
+Lanczos iteration:   271 , NCONV:            1
+Lanczos iteration:   272 , NCONV:            1
+Lanczos iteration:   273 , NCONV:            1
+Lanczos iteration:   274 , NCONV:            1
+Lanczos iteration:   275 , NCONV:            1
+Lanczos iteration:   276 , NCONV:            1
+Lanczos iteration:   277 , NCONV:            1
+Lanczos iteration:   278 , NCONV:            1
+Lanczos iteration:   279 , NCONV:            1
+Lanczos iteration:   280 , NCONV:            1
+Lanczos iteration:   281 , NCONV:            1
+Lanczos iteration:   282 , NCONV:            1
+Lanczos iteration:   283 , NCONV:            1
+Lanczos iteration:   284 , NCONV:            1
+Lanczos iteration:   285 , NCONV:            1
+Lanczos iteration:   286 , NCONV:            1
+Lanczos iteration:   287 , NCONV:            1
+Lanczos iteration:   288 , NCONV:            1
+Lanczos iteration:   289 , NCONV:            1
+Lanczos iteration:   290 , NCONV:            1
+Lanczos iteration:   291 , NCONV:            1
+Lanczos iteration:   292 , NCONV:            1
+Lanczos iteration:   293 , NCONV:            1
+Lanczos iteration:   294 , NCONV:            1
+Lanczos iteration:   295 , NCONV:            1
+Lanczos iteration:   296 , NCONV:            1
+Lanczos iteration:   297 , NCONV:            1
+Lanczos iteration:   298 , NCONV:            1
+Lanczos iteration:   299 , NCONV:            1
+Lanczos iteration:   300 , NCONV:            1
+Lanczos iteration:   301 , NCONV:            1
+Lanczos iteration:   302 , NCONV:            1
+Lanczos iteration:   303 , NCONV:            1
+Lanczos iteration:   304 , NCONV:            1
+Lanczos iteration:   305 , NCONV:            1
+Lanczos iteration:   306 , NCONV:            1
+Lanczos iteration:   307 , NCONV:            1
+Lanczos iteration:   308 , NCONV:            1
+Lanczos iteration:   309 , NCONV:            1
+Lanczos iteration:   310 , NCONV:            1
+Lanczos iteration:   311 , NCONV:            1
+Lanczos iteration:   312 , NCONV:            1
+Lanczos iteration:   313 , NCONV:            1
+Lanczos iteration:   314 , NCONV:            1
+Lanczos iteration:   315 , NCONV:            1
+Lanczos iteration:   316 , NCONV:            1
+Lanczos iteration:   317 , NCONV:            1
+Lanczos iteration:   318 , NCONV:            1
+Lanczos iteration:   319 , NCONV:            1
+Lanczos iteration:   320 , NCONV:            1
+Lanczos iteration:   321 , NCONV:            1
+Lanczos iteration:   322 , NCONV:            1
+Lanczos iteration:   323 , NCONV:            1
+Lanczos iteration:   324 , NCONV:            1
+Lanczos iteration:   325 , NCONV:            1
+Lanczos iteration:   326 , NCONV:            1
+Lanczos iteration:   327 , NCONV:            1
+Lanczos iteration:   328 , NCONV:            1
+Lanczos iteration:   329 , NCONV:            1
+Lanczos iteration:   330 , NCONV:            1
+Lanczos iteration:   331 , NCONV:            1
+Lanczos iteration:   332 , NCONV:            1
+Lanczos iteration:   333 , NCONV:            1
+Lanczos iteration:   334 , NCONV:            1
+Lanczos iteration:   335 , NCONV:            1
+Lanczos iteration:   336 , NCONV:            1
+Lanczos iteration:   337 , NCONV:            1
+Lanczos iteration:   338 , NCONV:            1
+Lanczos iteration:   339 , NCONV:            1
+Lanczos iteration:   340 , NCONV:            1
+Lanczos iteration:   341 , NCONV:            1
+Lanczos iteration:   342 , NCONV:            1
+Lanczos iteration:   343 , NCONV:            1
+Lanczos iteration:   344 , NCONV:            1
+Lanczos iteration:   345 , NCONV:            1
+Lanczos iteration:   346 , NCONV:            1
+Lanczos iteration:   347 , NCONV:            1
+Lanczos iteration:   348 , NCONV:            1
+Lanczos iteration:   349 , NCONV:            1
+Lanczos iteration:   350 , NCONV:            1
+Lanczos iteration:   351 , NCONV:            1
+Lanczos iteration:   352 , NCONV:            1
+Lanczos iteration:   353 , NCONV:            1
+Lanczos iteration:   354 , NCONV:            1
+Lanczos iteration:   355 , NCONV:            1
+Lanczos iteration:   356 , NCONV:            1
+Lanczos iteration:   357 , NCONV:            1
+Lanczos iteration:   358 , NCONV:            1
+Lanczos iteration:   359 , NCONV:            1
+Lanczos iteration:   360 , NCONV:            1
+Lanczos iteration:   361 , NCONV:            1
+Lanczos iteration:   362 , NCONV:            1
+Lanczos iteration:   363 , NCONV:            1
+Lanczos iteration:   364 , NCONV:            1
+Lanczos iteration:   365 , NCONV:            1
+Lanczos iteration:   366 , NCONV:            1
+Lanczos iteration:   367 , NCONV:            1
+Lanczos iteration:   368 , NCONV:            1
+Lanczos iteration:   369 , NCONV:            1
+Lanczos iteration:   370 , NCONV:            1
+Lanczos iteration:   371 , NCONV:            1
+Lanczos iteration:   372 , NCONV:            1
+Lanczos iteration:   373 , NCONV:            1
+Lanczos iteration:   374 , NCONV:            1
+Lanczos iteration:   375 , NCONV:            1
+Lanczos iteration:   376 , NCONV:            1
+Lanczos iteration:   377 , NCONV:            1
+Lanczos iteration:   378 , NCONV:            1
+Lanczos iteration:   379 , NCONV:            1
+Lanczos iteration:   380 , NCONV:            1
+Lanczos iteration:   381 , NCONV:            1
+Lanczos iteration:   382 , NCONV:            1
+Lanczos iteration:   383 , NCONV:            1
+Lanczos iteration:   384 , NCONV:            1
+Lanczos iteration:   385 , NCONV:            1
+Lanczos iteration:   386 , NCONV:            1
+Lanczos iteration:   387 , NCONV:            1
+Lanczos iteration:   388 , NCONV:            1
+Lanczos iteration:   389 , NCONV:            1
+Lanczos iteration:   390 , NCONV:            1
+Lanczos iteration:   391 , NCONV:            1
+Lanczos iteration:   392 , NCONV:            1
+Lanczos iteration:   393 , NCONV:            1
+Lanczos iteration:   394 , NCONV:            1
+Lanczos iteration:   395 , NCONV:            1
+Lanczos iteration:   396 , NCONV:            1
+Lanczos iteration:   397 , NCONV:            1
+Lanczos iteration:   398 , NCONV:            1
+Lanczos iteration:   399 , NCONV:            1
+Lanczos iteration:   400 , NCONV:            1
+Lanczos iteration:   401 , NCONV:            1
+Lanczos iteration:   402 , NCONV:            1
+Lanczos iteration:   403 , NCONV:            1
+Lanczos iteration:   404 , NCONV:            1
+Lanczos iteration:   405 , NCONV:            1
+Lanczos iteration:   406 , NCONV:            1
+Lanczos iteration:   407 , NCONV:            1
+Lanczos iteration:   408 , NCONV:            1
+Lanczos iteration:   409 , NCONV:            1
+Lanczos iteration:   410 , NCONV:            1
+Lanczos iteration:   411 , NCONV:            1
+Lanczos iteration:   412 , NCONV:            1
+Lanczos iteration:   413 , NCONV:            1
+Lanczos iteration:   414 , NCONV:            1
+Lanczos iteration:   415 , NCONV:            1
+Lanczos iteration:   416 , NCONV:            1
+Lanczos iteration:   417 , NCONV:            1
+Lanczos iteration:   418 , NCONV:            1
+Lanczos iteration:   419 , NCONV:            1
+Lanczos iteration:   420 , NCONV:            1
+Lanczos iteration:   421 , NCONV:            1
+Lanczos iteration:   422 , NCONV:            1
+Lanczos iteration:   423 , NCONV:            1
+Lanczos iteration:   424 , NCONV:            1
+Lanczos iteration:   425 , NCONV:            1
+Lanczos iteration:   426 , NCONV:            1
+Lanczos iteration:   427 , NCONV:            1
+Lanczos iteration:   428 , NCONV:            1
+Lanczos iteration:   429 , NCONV:            1
+Lanczos iteration:   430 , NCONV:            1
+Lanczos iteration:   431 , NCONV:            1
+Lanczos iteration:   432 , NCONV:            1
+Lanczos iteration:   433 , NCONV:            1
+Lanczos iteration:   434 , NCONV:            1
+Lanczos iteration:   435 , NCONV:            1
+Lanczos iteration:   436 , NCONV:            1
+Lanczos iteration:   437 , NCONV:            1
+Lanczos iteration:   438 , NCONV:            1
+Lanczos iteration:   439 , NCONV:            1
+Lanczos iteration:   440 , NCONV:            1
+Lanczos iteration:   441 , NCONV:            1
+Lanczos iteration:   442 , NCONV:            1
+Lanczos iteration:   443 , NCONV:            1
+Lanczos iteration:   444 , NCONV:            1
+Lanczos iteration:   445 , NCONV:            1
+Lanczos iteration:   446 , NCONV:            1
+Lanczos iteration:   447 , NCONV:            1
+Lanczos iteration:   448 , NCONV:            1
+Lanczos iteration:   449 , NCONV:            1
+Lanczos iteration:   450 , NCONV:            1
+Lanczos iteration:   451 , NCONV:            1
+Lanczos iteration:   452 , NCONV:            1
+Lanczos iteration:   453 , NCONV:            1
+Lanczos iteration:   454 , NCONV:            1
+Lanczos iteration:   455 , NCONV:            1
+Lanczos iteration:   456 , NCONV:            1
+Lanczos iteration:   457 , NCONV:            1
+Lanczos iteration:   458 , NCONV:            1
+Lanczos iteration:   459 , NCONV:            1
+Lanczos iteration:   460 , NCONV:            1
+Lanczos iteration:   461 , NCONV:            1
+Lanczos iteration:   462 , NCONV:            1
+Lanczos iteration:   463 , NCONV:            1
+Lanczos iteration:   464 , NCONV:            1
+Lanczos iteration:   465 , NCONV:            1
+Lanczos iteration:   466 , NCONV:            1
+Lanczos iteration:   467 , NCONV:            1
+Lanczos iteration:   468 , NCONV:            1
+Lanczos iteration:   469 , NCONV:            1
+Lanczos iteration:   470 , NCONV:            1
+Lanczos iteration:   471 , NCONV:            1
+Lanczos iteration:   472 , NCONV:            1
+Lanczos iteration:   473 , NCONV:            1
+Lanczos iteration:   474 , NCONV:            1
+Lanczos iteration:   475 , NCONV:            1
+Lanczos iteration:   476 , NCONV:            1
+Lanczos iteration:   477 , NCONV:            1
+Lanczos iteration:   478 , NCONV:            1
+Lanczos iteration:   479 , NCONV:            1
+Lanczos iteration:   480 , NCONV:            1
+Lanczos iteration:   481 , NCONV:            1
+Lanczos iteration:   482 , NCONV:            1
+Lanczos iteration:   483 , NCONV:            1
+Lanczos iteration:   484 , NCONV:            1
+Lanczos iteration:   485 , NCONV:            1
+Lanczos iteration:   486 , NCONV:            1
+Lanczos iteration:   487 , NCONV:            1
+Lanczos iteration:   488 , NCONV:            1
+Lanczos iteration:   489 , NCONV:            1
+Lanczos iteration:   490 , NCONV:            1
+Lanczos iteration:   491 , NCONV:            1
+Lanczos iteration:   492 , NCONV:            1
+Lanczos iteration:   493 , NCONV:            1
+Lanczos iteration:   494 , NCONV:            1
+Lanczos iteration:   495 , NCONV:            1
+Lanczos iteration:   496 , NCONV:            1
+Lanczos iteration:   497 , NCONV:            1
+Lanczos iteration:   498 , NCONV:            1
+Lanczos iteration:   499 , NCONV:            1
+ response strength is:                        NaN
+Lanczos iteration:   500 , NCONV:            1
+  1 Ev, RSG:      5.78607847    979.00459390
+  2 Ev, RSG:      7.05829731      0.33305086
+  3 Ev, RSG:      7.52783735     12.51756447
+  4 Ev, RSG:      8.85336884      3.21590527
+  5 Ev, RSG:     22.31474575   1441.79839074
+  6 Ev, RSG:     23.00298152    819.20192164
+  7 Ev, RSG:     25.34171035      3.48137457
+  8 Ev, RSG:     27.23391899     72.49886335
+  9 Ev, RSG:     27.59485057      0.08618773
+ 10 Ev, RSG:     28.87714420     27.75866853
+ 11 Ev, RSG:     29.27867001      6.34978188
+ 12 Ev, RSG:     30.65772433      5.92788106
+ 13 Ev, RSG:     30.95932753      9.09270657
+ 14 Ev, RSG:     31.37278285     50.66282973
+ 15 Ev, RSG:     31.53930252      4.67843302
+ 16 Ev, RSG:     32.05241304      6.80801468
+ 17 Ev, RSG:     32.30911983     16.76451019
+ 18 Ev, RSG:     32.41944840      9.77280578
+ 19 Ev, RSG:     32.66087938      1.23652835
+ 20 Ev, RSG:     32.96201111      0.77670816
+ 21 Ev, RSG:     33.25789053      8.00667673
+ 22 Ev, RSG:     33.47394755      0.74553954
+ 23 Ev, RSG:     33.65805853      0.00022054
+ 24 Ev, RSG:     33.79192337      0.63966142
+ 25 Ev, RSG:     34.05957792      2.24209254
+ 26 Ev, RSG:     34.20087254      0.11813255
+ 27 Ev, RSG:     34.30430390      0.10400860
+ 28 Ev, RSG:     34.42071889      0.35787033
+ 29 Ev, RSG:     34.62973808      1.02085502
+ 30 Ev, RSG:     34.72046226      0.17940705
+ 31 Ev, RSG:     34.92860384      0.51851117
+ 32 Ev, RSG:     35.08002483      0.25354342
+ 33 Ev, RSG:     35.16514204      0.54250379
+ 34 Ev, RSG:     35.33515967      0.39167025
+ 35 Ev, RSG:     35.38845816      0.06090562
+ 36 Ev, RSG:     35.72257083      0.85078049
+ 37 Ev, RSG:     35.91066538      0.53113842
+ 38 Ev, RSG:     36.09035522      0.20137610
+ 39 Ev, RSG:     36.29059942      1.15551536
+ 40 Ev, RSG:     36.50483919      0.46050075
+ 41 Ev, RSG:     36.71821723      0.47505550
+ 42 Ev, RSG:     37.00028320      1.16940744
+ 43 Ev, RSG:     37.15906460      0.77385196
+ 44 Ev, RSG:     37.43404050      0.71909235
+ 45 Ev, RSG:     37.64330914      1.44353447
+ 46 Ev, RSG:     37.87904156      0.78834251
+ 47 Ev, RSG:     38.13263788      0.71484612
+ 48 Ev, RSG:     38.47029437      0.22054390
+ 49 Ev, RSG:     38.74247996      0.45628972
+ 50 Ev, RSG:     38.98777929      0.79160921
+ 51 Ev, RSG:     39.31613182      0.52406650
+ 52 Ev, RSG:     39.60022068      0.35567316
+ 53 Ev, RSG:     39.92750045      0.28623062
+ 54 Ev, RSG:     40.21128945      0.32784426
+ 55 Ev, RSG:     40.59588474      0.42651003
+ 56 Ev, RSG:     40.91374834      0.26282342
+ 57 Ev, RSG:     41.23096567      0.46349500
+ 58 Ev, RSG:     41.51126449      0.34439303
+ 59 Ev, RSG:     42.01239100      0.11156861
+ 60 Ev, RSG:     42.35275621      0.63159439
+ 61 Ev, RSG:     42.71193229      0.91060706
+ 62 Ev, RSG:     42.99924205      0.73808372
+ 63 Ev, RSG:     43.24276281      0.48647442
+ 64 Ev, RSG:     43.80949949      0.13628600
+ 65 Ev, RSG:     44.14887051      0.29227600
+ 66 Ev, RSG:     44.56397795      0.11403937
+ 67 Ev, RSG:     45.00217840      0.17485922
+ 68 Ev, RSG:     45.43464141      0.09183157
+ 69 Ev, RSG:     45.81684532      0.13293246
+ 70 Ev, RSG:     46.20075589      0.04249965
+ 71 Ev, RSG:     46.78046873      0.06780294
+ 72 Ev, RSG:     47.16230110      0.04929178
+ 73 Ev, RSG:     47.61280042      0.03219859
+ 74 Ev, RSG:     48.14698660      0.08536465
+ 75 Ev, RSG:     48.66850024      0.08525238
+ 76 Ev, RSG:     49.04533396      0.15126315
+ 77 Ev, RSG:     49.55420981      0.23986661
+ 78 Ev, RSG:     49.92840310      0.32895527
+ 79 Ev, RSG:     50.41268753      0.06344391
+ 80 Ev, RSG:     50.93938799      0.10582270
+ 81 Ev, RSG:     51.48251678      0.08917349
+ 82 Ev, RSG:     51.99506333      0.11024559
+ 83 Ev, RSG:     52.46780799      0.13010019
+ 84 Ev, RSG:     53.00122313      0.27109405
+ 85 Ev, RSG:     53.47040966      0.23083574
+ 86 Ev, RSG:     53.97725465      0.10024540
+ 87 Ev, RSG:     54.61463623      0.14541350
+ 88 Ev, RSG:     55.12087042      0.17829819
+ 89 Ev, RSG:     55.61013219      0.19453430
+ 90 Ev, RSG:     56.21302019      0.22644954
+ 91 Ev, RSG:     56.73911664      0.27497886
+ 92 Ev, RSG:     57.27982433      0.25033441
+ 93 Ev, RSG:     57.89046173      0.38433997
+ 94 Ev, RSG:     58.39453078      0.34030921
+ 95 Ev, RSG:     58.96284758      0.33344909
+ 96 Ev, RSG:     59.54924372      0.31009093
+ 97 Ev, RSG:     60.14660666      0.30097275
+ 98 Ev, RSG:     60.71904267      0.30641331
+ 99 Ev, RSG:     61.34972769      0.25030789
+100 Ev, RSG:     61.94293420      0.30217659
+101 Ev, RSG:     62.51080667      0.31530881
+102 Ev, RSG:     63.14185012      0.34170360
+103 Ev, RSG:     63.78876839      0.31076189
+104 Ev, RSG:     64.38714489      0.30133756
+105 Ev, RSG:     65.06494460      0.20144136
+106 Ev, RSG:     65.70686252      0.32263802
+107 Ev, RSG:     66.31058755      0.40670170
+108 Ev, RSG:     66.95142378      0.26958818
+109 Ev, RSG:     67.65137004      0.46512442
+110 Ev, RSG:     68.26811444      0.45351853
+111 Ev, RSG:     68.90901282      0.48829354
+112 Ev, RSG:     69.57709557      0.43175519
+113 Ev, RSG:     70.24389404      0.46207462
+114 Ev, RSG:     70.94435158      0.44233712
+115 Ev, RSG:     71.60798598      0.53810182
+116 Ev, RSG:     72.31609204      0.50435736
+117 Ev, RSG:     72.98131587      0.63504239
+118 Ev, RSG:     73.67510708      0.60399460
+119 Ev, RSG:     74.36888866      0.61802014
+120 Ev, RSG:     75.07504002      0.59693101
+121 Ev, RSG:     75.76679721      0.76507591
+122 Ev, RSG:     76.47699918      0.66807168
+123 Ev, RSG:     77.22905164      0.86269997
+124 Ev, RSG:     77.90914586      0.85730575
+125 Ev, RSG:     78.66551660      0.72748006
+126 Ev, RSG:     79.37187864      0.86035103
+127 Ev, RSG:     80.10885632      1.08473241
+128 Ev, RSG:     80.82683578      1.08046814
+129 Ev, RSG:     81.54964964      0.92067066
+130 Ev, RSG:     82.30214840      0.90097911
+131 Ev, RSG:     83.07061058      0.93564938
+132 Ev, RSG:     83.78776694      1.06792199
+133 Ev, RSG:     84.54966391      1.01096859
+134 Ev, RSG:     85.31849297      0.83507957
+135 Ev, RSG:     86.08213688      0.84717387
+136 Ev, RSG:     86.86865972      0.73516799
+137 Ev, RSG:     87.63682476      0.72003964
+138 Ev, RSG:     88.43574571      0.66708536
+139 Ev, RSG:     89.22495481      0.75085065
+140 Ev, RSG:     89.97823990      0.71503465
+141 Ev, RSG:     90.80210385      0.63492890
+142 Ev, RSG:     91.60244886      0.67025479
+143 Ev, RSG:     92.39736286      0.67423921
+144 Ev, RSG:     93.20172516      0.62993148
+145 Ev, RSG:     94.00506928      0.64685119
+146 Ev, RSG:     94.81585634      0.56440403
+147 Ev, RSG:     95.64174987      0.46080110
+148 Ev, RSG:     96.48272422      0.43954798
+149 Ev, RSG:     97.31917281      0.44001157
+150 Ev, RSG:     98.16555517      0.41966146
+151 Ev, RSG:     99.00173271      0.42640614
+152 Ev, RSG:     99.82139701      0.42458990
+153 Ev, RSG:    100.69304124      0.39420763
+154 Ev, RSG:    101.54399357      0.35455633
+155 Ev, RSG:    102.40355400      0.35150739
+156 Ev, RSG:    103.25433833      0.37761201
+157 Ev, RSG:    104.12698887      0.33504824
+158 Ev, RSG:    104.98826869      0.33158516
+159 Ev, RSG:    105.86354386      0.32294697
+160 Ev, RSG:    106.73950799      0.31265389
+161 Ev, RSG:    107.61810299      0.29401412
+162 Ev, RSG:    108.50439062      0.29646494
+163 Ev, RSG:    109.40343192      0.28189440
+164 Ev, RSG:    110.28032594      0.28879445
+165 Ev, RSG:    111.18785998      0.26369415
+166 Ev, RSG:    112.08792143      0.27990135
+167 Ev, RSG:    112.97176941      0.26470327
+168 Ev, RSG:    113.90152054      0.24336802
+169 Ev, RSG:    114.82598083      0.29314774
+170 Ev, RSG:    115.74474076      0.32774222
+171 Ev, RSG:    116.65178587      0.32577028
+172 Ev, RSG:    117.54340527      0.36010484
+173 Ev, RSG:    118.46055081      0.38990592
+174 Ev, RSG:    119.37714829      0.37440328
+175 Ev, RSG:    120.27234869      0.37262923
+176 Ev, RSG:    121.20481647      0.35947693
+177 Ev, RSG:    122.15989570      0.33338017
+178 Ev, RSG:    123.08449579      0.36298880
+179 Ev, RSG:    124.00549652      0.34154968
+180 Ev, RSG:    124.97428771      0.34217604
+181 Ev, RSG:    125.89517304      0.33662133
+182 Ev, RSG:    126.83319212      0.34113342
+183 Ev, RSG:    127.80527668      0.33595719
+184 Ev, RSG:    128.74560020      0.35379110
+185 Ev, RSG:    129.68763105      0.34831369
+186 Ev, RSG:    130.65632326      0.32646960
+187 Ev, RSG:    131.63061722      0.34604669
+188 Ev, RSG:    132.56832386      0.36407105
+189 Ev, RSG:    133.54485539      0.36235649
+190 Ev, RSG:    134.50542353      0.37428162
+191 Ev, RSG:    135.47664642      0.38849095
+192 Ev, RSG:    136.46572026      0.39592980
+193 Ev, RSG:    137.43306873      0.43160747
+194 Ev, RSG:    138.38906952      0.48012479
+195 Ev, RSG:    139.38187114      0.47729673
+196 Ev, RSG:    140.35811791      0.52936391
+197 Ev, RSG:    141.34715150      0.61233664
+198 Ev, RSG:    142.31933273      0.68978830
+199 Ev, RSG:    143.31985016      0.87815692
+200 Ev, RSG:    144.27299149      1.25549279
+201 Ev, RSG:    145.18527552      1.44808098
+202 Ev, RSG:    146.09849435      1.39177027
+203 Ev, RSG:    147.04382474      1.14629859
+204 Ev, RSG:    148.02171888      0.90630632
+205 Ev, RSG:    148.96538662      0.69448311
+206 Ev, RSG:    149.98404259      0.51533625
+207 Ev, RSG:    150.98038835      0.46422583
+208 Ev, RSG:    151.96299331      0.35575173
+209 Ev, RSG:    152.99750048      0.28562847
+210 Ev, RSG:    154.00857134      0.25926268
+211 Ev, RSG:    155.04606114      0.23116949
+212 Ev, RSG:    156.04708315      0.21627031
+213 Ev, RSG:    157.07355312      0.19355418
+214 Ev, RSG:    158.11462990      0.17930743
+215 Ev, RSG:    159.15047957      0.18446665
+216 Ev, RSG:    160.16888606      0.18783428
+217 Ev, RSG:    161.18282913      0.18408356
+218 Ev, RSG:    162.20769998      0.18743317
+219 Ev, RSG:    163.24230739      0.18941804
+220 Ev, RSG:    164.26632284      0.19768727
+221 Ev, RSG:    165.27120769      0.19665450
+222 Ev, RSG:    166.30786982      0.18262668
+223 Ev, RSG:    167.32882979      0.19466160
+224 Ev, RSG:    168.35841388      0.18006639
+225 Ev, RSG:    169.39143336      0.17730972
+226 Ev, RSG:    170.42490723      0.18078617
+227 Ev, RSG:    171.43988683      0.18161261
+228 Ev, RSG:    172.49141378      0.16001623
+229 Ev, RSG:    173.51455053      0.17478670
+230 Ev, RSG:    174.55136074      0.16296520
+231 Ev, RSG:    175.61283474      0.17624845
+232 Ev, RSG:    176.63668167      0.19206293
+233 Ev, RSG:    177.66235954      0.20939137
+234 Ev, RSG:    178.67542746      0.21338485
+235 Ev, RSG:    179.70521641      0.20483588
+236 Ev, RSG:    180.73950470      0.20515765
+237 Ev, RSG:    181.75815594      0.18867747
+238 Ev, RSG:    182.80120854      0.17904212
+239 Ev, RSG:    183.84945827      0.17793907
+240 Ev, RSG:    184.88422924      0.18128716
+241 Ev, RSG:    185.90634321      0.17277018
+242 Ev, RSG:    186.94980728      0.16992293
+243 Ev, RSG:    187.98910966      0.16897082
+244 Ev, RSG:    189.00317666      0.16113774
+245 Ev, RSG:    190.04733027      0.14538972
+246 Ev, RSG:    191.09589814      0.15270849
+247 Ev, RSG:    192.12549564      0.14289498
+248 Ev, RSG:    193.16341282      0.13001490
+249 Ev, RSG:    194.20646006      0.12818677
+250 Ev, RSG:    195.23691460      0.12077524
+251 Ev, RSG:    196.28889691      0.10930396
+252 Ev, RSG:    197.35078639      0.10676746
+253 Ev, RSG:    198.39363043      0.10653803
+254 Ev, RSG:    199.43345794      0.10627963
+255 Ev, RSG:    200.49361227      0.10931001
+256 Ev, RSG:    201.51457014      0.10682600
+257 Ev, RSG:    202.56212043      0.10448160
+258 Ev, RSG:    203.59604897      0.09784169
+259 Ev, RSG:    204.64348497      0.10601639
+260 Ev, RSG:    205.66666385      0.11218895
+261 Ev, RSG:    206.69479322      0.09992554
+262 Ev, RSG:    207.75132117      0.10268641
+263 Ev, RSG:    208.77410284      0.09621005
+264 Ev, RSG:    209.80591029      0.09013627
+265 Ev, RSG:    210.82991117      0.08118127
+266 Ev, RSG:    211.89486634      0.07836808
+267 Ev, RSG:    212.92730329      0.07514012
+268 Ev, RSG:    213.95844854      0.07320325
+269 Ev, RSG:    215.00956295      0.07168118
+270 Ev, RSG:    216.04152931      0.06976442
+271 Ev, RSG:    217.08982590      0.07088791
+272 Ev, RSG:    218.09814656      0.06896998
+273 Ev, RSG:    219.15766730      0.06829382
+274 Ev, RSG:    220.17833898      0.07016002
+275 Ev, RSG:    221.20082856      0.06959468
+276 Ev, RSG:    222.22561515      0.06722509
+277 Ev, RSG:    223.26517963      0.06581730
+278 Ev, RSG:    224.27195097      0.05820949
+279 Ev, RSG:    225.31204716      0.06017277
+280 Ev, RSG:    226.35007513      0.05910150
+281 Ev, RSG:    227.37058855      0.05839783
+282 Ev, RSG:    228.37764399      0.05678805
+283 Ev, RSG:    229.39913813      0.05819151
+284 Ev, RSG:    230.40725958      0.05426072
+285 Ev, RSG:    231.42143476      0.05068784
+286 Ev, RSG:    232.44663217      0.04955298
+287 Ev, RSG:    233.46157483      0.05018117
+288 Ev, RSG:    234.46227045      0.04626644
+289 Ev, RSG:    235.47453207      0.04164419
+290 Ev, RSG:    236.49517378      0.04095115
+291 Ev, RSG:    237.50145672      0.03774501
+292 Ev, RSG:    238.50769576      0.03664165
+293 Ev, RSG:    239.52683448      0.03416379
+294 Ev, RSG:    240.54236499      0.03440102
+295 Ev, RSG:    241.53049126      0.03437108
+296 Ev, RSG:    242.54162561      0.03174937
+297 Ev, RSG:    243.53926304      0.03266244
+298 Ev, RSG:    244.53500826      0.02927422
+299 Ev, RSG:    245.53964810      0.02732609
+300 Ev, RSG:    246.54185872      0.02835083
+301 Ev, RSG:    247.50611591      0.02731513
+302 Ev, RSG:    248.52800185      0.02734680
+303 Ev, RSG:    249.50379009      0.02558455
+304 Ev, RSG:    250.50530839      0.02539355
+305 Ev, RSG:    251.46250964      0.02439059
+306 Ev, RSG:    252.46647822      0.02371010
+307 Ev, RSG:    253.44002119      0.02280617
+308 Ev, RSG:    254.42221513      0.02217736
+309 Ev, RSG:    255.39846545      0.02296595
+310 Ev, RSG:    256.36194988      0.02194955
+311 Ev, RSG:    257.33545249      0.02008591
+312 Ev, RSG:    258.33163965      0.02029313
+313 Ev, RSG:    259.26149677      0.02076968
+314 Ev, RSG:    260.22667627      0.02008466
+315 Ev, RSG:    261.17253726      0.01803475
+316 Ev, RSG:    262.14993904      0.01741257
+317 Ev, RSG:    263.10472476      0.01596264
+318 Ev, RSG:    264.05759792      0.01514339
+319 Ev, RSG:    265.03456694      0.01498752
+320 Ev, RSG:    265.96021187      0.01660428
+321 Ev, RSG:    266.89287986      0.01444239
+322 Ev, RSG:    267.83392366      0.01383232
+323 Ev, RSG:    268.78397833      0.01412561
+324 Ev, RSG:    269.71265857      0.01418327
+325 Ev, RSG:    270.65616855      0.01341249
+326 Ev, RSG:    271.56740458      0.01331059
+327 Ev, RSG:    272.49936060      0.01193391
+328 Ev, RSG:    273.40789432      0.01190875
+329 Ev, RSG:    274.33218312      0.01055765
+330 Ev, RSG:    275.25199101      0.00928022
+331 Ev, RSG:    276.15379927      0.00913839
+332 Ev, RSG:    277.09567871      0.00801620
+333 Ev, RSG:    277.97006517      0.00814617
+334 Ev, RSG:    278.90795380      0.00734718
+335 Ev, RSG:    279.81718699      0.00737102
+336 Ev, RSG:    280.71721683      0.00690598
+337 Ev, RSG:    281.59058752      0.00616004
+338 Ev, RSG:    282.49332961      0.00558689
+339 Ev, RSG:    283.38850385      0.00491847
+340 Ev, RSG:    284.28818396      0.00531106
+341 Ev, RSG:    285.16114486      0.00509509
+342 Ev, RSG:    286.03029425      0.00456381
+343 Ev, RSG:    286.91922639      0.00416243
+344 Ev, RSG:    287.80241707      0.00392441
+345 Ev, RSG:    288.67708051      0.00356072
+346 Ev, RSG:    289.54278191      0.00311066
+347 Ev, RSG:    290.44530879      0.00304084
+348 Ev, RSG:    291.29657406      0.00361369
+349 Ev, RSG:    292.11456748      0.00399887
+350 Ev, RSG:    292.97739915      0.00335788
+351 Ev, RSG:    293.81269589      0.00312002
+352 Ev, RSG:    294.65124118      0.00288770
+353 Ev, RSG:    295.51531780      0.00256876
+354 Ev, RSG:    296.33674360      0.00260652
+355 Ev, RSG:    297.16849698      0.00246600
+356 Ev, RSG:    297.99300863      0.00217577
+357 Ev, RSG:    298.83413185      0.00192472
+358 Ev, RSG:    299.67317386      0.00177560
+359 Ev, RSG:    300.48547228      0.00217505
+360 Ev, RSG:    301.29185167      0.00185903
+361 Ev, RSG:    302.07607067      0.00166670
+362 Ev, RSG:    302.92397497      0.00144500
+363 Ev, RSG:    303.72644269      0.00176182
+364 Ev, RSG:    304.50935018      0.00178284
+365 Ev, RSG:    305.29017360      0.00152142
+366 Ev, RSG:    306.10305775      0.00147164
+367 Ev, RSG:    306.86781435      0.00151209
+368 Ev, RSG:    307.66280601      0.00146383
+369 Ev, RSG:    308.38925834      0.00142489
+370 Ev, RSG:    309.18375682      0.00104274
+371 Ev, RSG:    309.96636504      0.00113407
+372 Ev, RSG:    310.72184391      0.00117712
+373 Ev, RSG:    311.46612836      0.00142978
+374 Ev, RSG:    312.20842878      0.00132233
+375 Ev, RSG:    312.94559643      0.00099759
+376 Ev, RSG:    313.69731793      0.00101891
+377 Ev, RSG:    314.42483377      0.00117458
+378 Ev, RSG:    315.16934709      0.00088076
+379 Ev, RSG:    315.89577276      0.00081957
+380 Ev, RSG:    316.62239936      0.00075702
+381 Ev, RSG:    317.28793004      0.00066415
+382 Ev, RSG:    318.04106700      0.00054324
+383 Ev, RSG:    318.72726877      0.00061563
+384 Ev, RSG:    319.46765478      0.00048324
+385 Ev, RSG:    320.16680774      0.00047911
+386 Ev, RSG:    320.85693043      0.00047940
+387 Ev, RSG:    321.56802725      0.00045648
+388 Ev, RSG:    322.22012570      0.00037329
+389 Ev, RSG:    322.93812201      0.00034030
+390 Ev, RSG:    323.60621734      0.00045583
+391 Ev, RSG:    324.27692814      0.00046876
+392 Ev, RSG:    324.91679930      0.00032540
+393 Ev, RSG:    325.59554468      0.00028956
+394 Ev, RSG:    326.26974137      0.00029321
+395 Ev, RSG:    326.88869855      0.00029339
+396 Ev, RSG:    327.53591008      0.00021279
+397 Ev, RSG:    328.21296995      0.00030661
+398 Ev, RSG:    328.81855768      0.00030841
+399 Ev, RSG:    329.42112996      0.00021797
+400 Ev, RSG:    330.01485949      0.00017389
+401 Ev, RSG:    330.63970144      0.00014746
+402 Ev, RSG:    331.32862516      0.00015406
+403 Ev, RSG:    331.91981915      0.00013488
+404 Ev, RSG:    332.51210734      0.00011018
+405 Ev, RSG:    333.15430507      0.00012770
+406 Ev, RSG:    333.74337745      0.00016809
+407 Ev, RSG:    334.30069850      0.00011801
+408 Ev, RSG:    334.87047424      0.00014004
+409 Ev, RSG:    335.43559380      0.00009646
+410 Ev, RSG:    336.00367020      0.00009689
+411 Ev, RSG:    336.64355723      0.00008322
+412 Ev, RSG:    337.12214632      0.00010005
+413 Ev, RSG:    337.72902871      0.00010322
+414 Ev, RSG:    338.23951244      0.00009915
+415 Ev, RSG:    338.75289660      0.00009713
+416 Ev, RSG:    339.34169775      0.00007992
+417 Ev, RSG:    339.82928340      0.00007852
+418 Ev, RSG:    340.38148605      0.00007075
+419 Ev, RSG:    340.90246496      0.00008224
+420 Ev, RSG:    341.35680552      0.00007286
+421 Ev, RSG:    341.91760798      0.00006350
+422 Ev, RSG:    342.39265509      0.00004371
+423 Ev, RSG:    342.88130523      0.00004346
+424 Ev, RSG:    343.37601360      0.00007779
+425 Ev, RSG:    343.83130040      0.00006670
+426 Ev, RSG:    344.25800271      0.00005123
+427 Ev, RSG:    344.71270818      0.00002651
+428 Ev, RSG:    345.26089620      0.00003121
+429 Ev, RSG:    345.70599962      0.00003335
+430 Ev, RSG:    346.10779636      0.00004225
+431 Ev, RSG:    346.47733582      0.00003778
+432 Ev, RSG:    346.90598327      0.00002082
+433 Ev, RSG:    347.35425768      0.00000376
+434 Ev, RSG:    347.73564985      0.00001976
+435 Ev, RSG:    348.11079383      0.00000849
+436 Ev, RSG:    348.61368526      0.00000420
+437 Ev, RSG:    349.12106406      0.00000216
+438 Ev, RSG:    349.57206279      0.00000054
+439 Ev, RSG:    350.16266171      0.00000244
+440 Ev, RSG:    350.46243552      0.00000553
+441 Ev, RSG:    350.62309548      0.00000971
+442 Ev, RSG:    351.07392583      0.00000037
+443 Ev, RSG:    351.19302601      0.00000068
+444 Ev, RSG:    352.09330992      0.00000526
+445 Ev, RSG:    352.17845365      0.00000183
+446 Ev, RSG:    352.43452855      0.00010589
+447 Ev, RSG:    353.02150388      0.00000003
+448 Ev, RSG:    353.21561971      0.00003073
+449 Ev, RSG:    353.98769111      0.00000008
+450 Ev, RSG:    354.19826286      0.00035657
+451 Ev, RSG:    355.10383852      0.00003623
+452 Ev, RSG:    355.41631969      0.00000062
+453 Ev, RSG:    355.60054731      0.00001751
+454 Ev, RSG:    355.79391901      0.00000242
+455 Ev, RSG:    355.85912400      0.00001579
+456 Ev, RSG:    356.17270398      0.00000846
+457 Ev, RSG:    356.31215875      0.00001252
+458 Ev, RSG:    356.65884106      0.00000152
+459 Ev, RSG:    356.91400364      0.00000018
+460 Ev, RSG:    357.05403890      0.00000036
+461 Ev, RSG:    357.29486657      0.00000003
+462 Ev, RSG:    357.76965876      0.00002051
+463 Ev, RSG:    357.84641666      0.00000016
+464 Ev, RSG:    358.03445777      0.00000741
+465 Ev, RSG:    358.25205438      0.00000853
+466 Ev, RSG:    358.42085383      0.00007759
+467 Ev, RSG:    358.73626240      0.00000065
+468 Ev, RSG:    358.86432932      0.00000069
+469 Ev, RSG:    359.01383503      0.00000554
+470 Ev, RSG:    359.18066362      0.00001226
+471 Ev, RSG:    359.41620186      0.00000012
+472 Ev, RSG:    359.64717409      0.00000026
+473 Ev, RSG:    359.74538119      0.00001891
+474 Ev, RSG:    360.01359022      0.00002433
+475 Ev, RSG:    360.29535768      0.00000759
+476 Ev, RSG:    360.41318682      0.00000647
+477 Ev, RSG:    360.69296518      0.00001514
+478 Ev, RSG:    361.02968801      0.00000155
+479 Ev, RSG:    361.29564880      0.00000219
+480 Ev, RSG:    361.44047792      0.00000055
+481 Ev, RSG:    361.66312479      0.00001039
+482 Ev, RSG:    361.72408481      0.00000019
+483 Ev, RSG:    362.10633724      0.00000707
+484 Ev, RSG:    362.21458939      0.00001087
+485 Ev, RSG:    362.56619609      0.00000222
+486 Ev, RSG:    362.87484463      0.00000063
+487 Ev, RSG:    362.96168678      0.00000039
+488 Ev, RSG:    363.14866966      0.00000000
+489 Ev, RSG:    363.24183899      0.00000008
+490 Ev, RSG:    363.55501005      0.00000225
+491 Ev, RSG:    363.71417623      0.00000000
+492 Ev, RSG:    364.18228742      0.00000021
+493 Ev, RSG:    364.43564560      0.00000035
+494 Ev, RSG:    364.75140152      0.00000043
+495 Ev, RSG:    365.09943680      0.00000636
+496 Ev, RSG:    365.22639440      0.00000344
+497 Ev, RSG:    365.51713542      0.00000020
+498 Ev, RSG:    366.01422197      0.00000000
+499 Ev, RSG:    366.46829700      0.00000013
+500 Ev, RSG:    368.25939301      0.00000156
+ response strength is:    1127.9076931333757     
+Lanczos iteration:   501 , NCONV:            1
+ response strength is:    1127.9076931162954     
+Lanczos iteration:   502 , NCONV:           52
+ response strength is:    1127.9076931163074     
+  1      5.78607847    979.00459390
+  2      7.05829731      0.33305086
+  3      7.52783735     12.51756447
+  4      8.85336884      3.21590527
+  5     22.31474575   1441.79839074
+  6     23.00298152    819.20192164
+  7     25.34171035      3.48137457
+  8     27.23391899     72.49886335
+  9     27.59485057      0.08618773
+ 10     28.87714420     27.75866853
+ 11     29.27867001      6.34978188
+ 12     30.65772433      5.92788106
+ 13     30.95932753      9.09270657
+ 14     31.37278285     50.66282973
+ 15     31.53930252      4.67843302
+ 16     32.05241304      6.80801468
+ 17     32.30911983     16.76451019
+ 18     32.41944840      9.77280578
+ 19     32.66087938      1.23652835
+ 20     32.96201111      0.77670816
+ 21     33.25789053      8.00667673
+ 22     33.47394755      0.74553954
+ 23     33.65805853      0.00022054
+ 24     33.79192337      0.63966142
+ 25     34.05957792      2.24209254
+ 26     34.20087253      0.11813254
+ 27     34.30430388      0.10400855
+ 28     34.42071885      0.35787026
+ 29     34.62973765      1.02084165
+ 30     34.72045283      0.17940831
+ 31     34.92856860      0.51813927
+ 32     35.07832212      0.24258210
+ 33     35.16322553      0.54727673
+ 34     35.31930281      0.22396958
+ 35     35.36094685      0.23482949
+ 36     35.72223759      0.84796612
+ 37     35.90843013      0.52365325
+ 38     36.07881482      0.19878474
+ 39     36.28770776      1.14951117
+ 40     36.49416005      0.45313740
+ 41     36.70608257      0.47816666
+ 42     36.98348268      0.98776991
+ 43     37.12920939      0.91747886
+ 44     37.40194589      0.64993530
+ 45     37.62397467      1.46249221
+ 46     37.85281126      0.83668540
+ 47     38.11579415      0.74852507
+ 48     38.41734098      0.20155732
+ 49     38.70557675      0.43290368
+ 50     38.96868510      0.82469229
+ 51     39.28823113      0.50447516
+ 52     39.55962033      0.37369959
+ 53     39.87917314      0.27927501
+ 54     40.17891897      0.35269783
+ 55     40.56686986      0.39598689
+ 56     40.84992556      0.26501640
+ 57     41.19245012      0.45450483
+ 58     41.48168882      0.39168906
+ 59     41.92785051      0.09012441
+ 60     42.32155356      0.58621473
+ 61     42.65671646      0.75727588
+ 62     42.91983903      0.79678395
+ 63     43.20447227      0.65035773
+ 64     43.75372523      0.11973770
+ 65     44.11878358      0.29950430
+ 66     44.50523185      0.11981329
+ 67     44.96121408      0.16821829
+ 68     45.33458285      0.08854805
+ 69     45.74759113      0.13368016
+ 70     46.09676582      0.06051188
+ 71     46.69936536      0.05258237
+ 72     47.04095209      0.05835558
+ 73     47.49892156      0.03750411
+ 74     48.08965565      0.07662626
+ 75     48.51449016      0.06182967
+ 76     48.94881153      0.15971667
+ 77     49.45003610      0.19114239
+ 78     49.84520201      0.34960449
+ 79     50.21217233      0.10466642
+ 80     50.84637961      0.10105511
+ 81     51.33337784      0.08131409
+ 82     51.83340144      0.10024323
+ 83     52.33118479      0.13667491
+ 84     52.90563009      0.23474360
+ 85     53.34049443      0.24170678
+ 86     53.79881187      0.13469888
+ 87     54.44946812      0.11071924
+ 88     54.93895708      0.17253425
+ 89     55.46972613      0.21513705
+ 90     56.06324127      0.19648988
+ 91     56.58781455      0.26921188
+ 92     57.12330201      0.26492576
+ 93     57.73529741      0.30921331
+ 94     58.21916904      0.38480390
+ 95     58.80627181      0.33949180
+ 96     59.38141766      0.30930821
+ 97     59.96005991      0.29153326
+ 98     60.53974958      0.31496341
+ 99     61.11963427      0.24427095
+100     61.73647462      0.29083463
+101     62.33385582      0.33941874
+102     62.97403648      0.32714033
+103     63.56421202      0.28882487
+104     64.16227071      0.31588453
+105     64.75560959      0.21729615
+106     65.47328208      0.27977247
+107     66.09594176      0.39460380
+108     66.68302090      0.31899968
+109     67.43243626      0.36535612
+110     68.01275825      0.47396463
+111     68.67648678      0.48879047
+112     69.31927934      0.44282719
+113     70.00195533      0.45724312
+114     70.66435892      0.42394104
+115     71.35789649      0.51857446
+116     72.01373328      0.48429203
+117     72.72056701      0.60860058
+118     73.38441028      0.60182044
+119     74.07863393      0.61401825
+120     74.77302152      0.60400096
+121     75.51243287      0.72503522
+122     76.18700154      0.69918503
+123     76.93398499      0.71923845
+124     77.60429928      0.90189714
+125     78.30300671      0.73147749
+126     79.06653477      0.85352799
+127     79.81414110      0.96637543
+128     80.50497848      1.07693696
+129     81.21524047      1.01174165
+130     81.97615478      0.90322375
+131     82.72662071      0.88616114
+132     83.48653941      1.07518616
+133     84.22072022      0.99483826
+134     84.94525735      0.89209615
+135     85.72851998      0.84663171
+136     86.47512723      0.76398351
+137     87.26436072      0.74586944
+138     88.04187944      0.67652456
+139     88.84823968      0.70641142
+140     89.62084783      0.77665474
+141     90.40692632      0.63524870
+142     91.21692599      0.65358790
+143     92.01123462      0.67605594
+144     92.80362791      0.65022266
+145     93.62013844      0.64003125
+146     94.40459978      0.59873160
+147     95.20905851      0.51018645
+148     96.05510560      0.44484351
+149     96.89169900      0.43702724
+150     97.71574210      0.42254616
+151     98.56105775      0.42601789
+152     99.40480120      0.44011687
+153    100.23110121      0.38684785
+154    101.06758606      0.37873582
+155    101.93918861      0.35441222
+156    102.80965409      0.36580779
+157    103.63742017      0.35006105
+158    104.51584060      0.33769676
+159    105.38172332      0.32416303
+160    106.24974626      0.31677329
+161    107.12201215      0.30521944
+162    108.01100951      0.29266905
+163    108.88168952      0.28468873
+164    109.78277531      0.29038673
+165    110.65627319      0.27291301
+166    111.57201962      0.26985658
+167    112.46167055      0.28081384
+168    113.36109240      0.24951508
+169    114.30441380      0.25803590
+170    115.19277135      0.29823655
+171    116.08516635      0.33056547
+172    117.02058825      0.35015786
+173    117.92188769      0.36292203
+174    118.80875690      0.38133579
+175    119.73546464      0.38570749
+176    120.64215145      0.35694675
+177    121.54668250      0.33795921
+178    122.50153549      0.34665413
+179    123.41626558      0.36012244
+180    124.34466983      0.32618305
+181    125.29308490      0.35235764
+182    126.24031447      0.33851338
+183    127.16692625      0.32705453
+184    128.12770485      0.34597666
+185    129.06867346      0.35414212
+186    130.00830325      0.33611935
+187    130.97995431      0.32781065
+188    131.95009910      0.36211250
+189    132.89370832      0.35540449
+190    133.86399205      0.36876931
+191    134.82659474      0.37521717
+192    135.78546679      0.38345768
+193    136.77475304      0.41210888
+194    137.75346425      0.45227701
+195    138.69809376      0.46836990
+196    139.69246901      0.49546355
+197    140.66917271      0.54401567
+198    141.64559763      0.63990350
+199    142.62370220      0.71616015
+200    143.60983262      0.97660203
+201    144.54342751      1.35097317
+202    145.46102598      1.46177826
+203    146.37293059      1.30580061
+204    147.30967909      1.05391551
+205    148.28579173      0.87089603
+206    149.24228355      0.61710467
+207    150.25756983      0.49658930
+208    151.23820578      0.44122363
+209    152.23343009      0.32697786
+210    153.26478443      0.27852830
+211    154.26719688      0.24676117
+212    155.30202018      0.23104542
+213    156.30508972      0.20801414
+214    157.32513842      0.18730992
+215    158.36372430      0.17862293
+216    159.39209447      0.18610173
+217    160.41150824      0.18830758
+218    161.42989076      0.18296988
+219    162.44257362      0.18519435
+220    163.46960469      0.19043158
+221    164.48910878      0.19936891
+222    165.49094065      0.19160064
+223    166.53142928      0.18394588
+224    167.53511868      0.19130983
+225    168.56868761      0.17880126
+226    169.59961641      0.17688458
+227    170.62855086      0.18164243
+228    171.63430587      0.17633153
+229    172.70076789      0.16302558
+230    173.70986457      0.17230863
+231    174.75022174      0.16155645
+232    175.80038193      0.18031446
+233    176.82444508      0.19406578
+234    177.84222075      0.21076268
+235    178.85064108      0.21065374
+236    179.87725651      0.20310784
+237    180.90426066      0.20431311
+238    181.92725447      0.18517689
+239    182.96434109      0.17715650
+240    184.00770040      0.17821110
+241    185.03957934      0.18132972
+242    186.06403362      0.17051866
+243    187.10072141      0.16911717
+244    188.13834195      0.16945533
+245    189.15218391      0.15774015
+246    190.19585864      0.14400103
+247    191.22949350      0.15205061
+248    192.26026107      0.14123392
+249    193.30005916      0.12874366
+250    194.33571229      0.12727387
+251    195.36140200      0.11850067
+252    196.40989489      0.10795412
+253    197.46711331      0.10675986
+254    198.50812568      0.10622581
+255    199.54274054      0.10535864
+256    200.59753544      0.11001043
+257    201.61976710      0.10579507
+258    202.66346931      0.10427258
+259    203.70066381      0.09736501
+260    204.73774140      0.10619505
+261    205.75241561      0.11127869
+262    206.78101861      0.09872557
+263    207.82876339      0.10270310
+264    208.85296454      0.09552618
+265    209.88249824      0.08949576
+266    210.90367577      0.07993529
+267    211.96232619      0.07827844
+268    212.99408271      0.07477737
+269    214.02019925      0.07256819
+270    215.06672880      0.07151286
+271    216.09606876      0.06937294
+272    217.14059172      0.07094710
+273    218.14576403      0.06827428
+274    219.20073011      0.06832116
+275    220.21832827      0.06991687
+276    221.23698742      0.06927335
+277    222.25797976      0.06686620
+278    223.29437316      0.06569723
+279    224.30035212      0.05781114
+280    225.33442048      0.05994865
+281    226.36971265      0.05897595
+282    227.38784103      0.05824437
+283    228.39184470      0.05655299
+284    229.40932500      0.05800389
+285    230.41447028      0.05405618
+286    231.42529425      0.05050540
+287    232.44711618      0.04939429
+288    233.45888283      0.05002484
+289    234.45626386      0.04614308
+290    235.46508988      0.04154220
+291    236.48285034      0.04082912
+292    237.48531583      0.03765662
+293    238.48907626      0.03658912
+294    239.50472293      0.03407300
+295    240.51711371      0.03425136
+296    241.50287048      0.03435509
+297    242.50999103      0.03165963
+298    243.50631133      0.03259828
+299    244.49691314      0.02926076
+300    245.49738563      0.02726329
+301    246.49755267      0.02818448
+302    247.46035393      0.02748849
+303    248.48162034      0.02715732
+304    249.45164063      0.02561676
+305    250.44983810      0.02520145
+306    251.40479654      0.02456455
+307    252.40750772      0.02358415
+308    253.37673271      0.02281483
+309    254.35631107      0.02213329
+310    255.33255898      0.02288548
+311    256.29272485      0.02200295
+312    257.26205654      0.02014539
+313    258.25257798      0.01994361
+314    259.18140921      0.02092979
+315    260.14647901      0.02006327
+316    261.08855570      0.01824474
+317    262.06586010      0.01733971
+318    263.01257484      0.01599094
+319    263.96374722      0.01522531
+320    264.93428077      0.01473507
+321    265.86412104      0.01658986
+322    266.78679501      0.01458451
+323    267.73046687      0.01393036
+324    268.68324270      0.01404943
+325    269.61204654      0.01422141
+326    270.54721487      0.01329533
+327    271.45868621      0.01341456
+328    272.38156888      0.01193046
+329    273.29544088      0.01202963
+330    274.21287610      0.01061888
+331    275.12320211      0.00934809
+332    276.03533994      0.00930830
+333    276.96299801      0.00791083
+334    277.85072099      0.00839334
+335    278.78464217      0.00730504
+336    279.69041931      0.00732130
+337    280.57821720      0.00686946
+338    281.44771656      0.00633967
+339    282.35153765      0.00563947
+340    283.23970008      0.00499661
+341    284.15136734      0.00525034
+342    285.01968978      0.00513366
+343    285.88770168      0.00467668
+344    286.77637355      0.00419640
+345    287.65604599      0.00393131
+346    288.52111792      0.00358567
+347    289.38074456      0.00319805
+348    290.27537782      0.00295272
+349    291.13816437      0.00353627
+350    291.97505211      0.00407425
+351    292.81892895      0.00336081
+352    293.65353910      0.00318336
+353    294.49773504      0.00295514
+354    295.34776640      0.00254506
+355    296.17806561      0.00264623
+356    297.01154058      0.00249059
+357    297.83219123      0.00223404
+358    298.66645387      0.00194240
+359    299.49417968      0.00177074
+360    300.33279966      0.00213354
+361    301.11386880      0.00188314
+362    301.90933078      0.00176421
+363    302.74394924      0.00142535
+364    303.56678706      0.00171526
+365    304.34563715      0.00178273
+366    305.11510944      0.00157802
+367    305.92205494      0.00143406
+368    306.69377907      0.00153547
+369    307.47442281      0.00141545
+370    308.21813922      0.00151642
+371    308.98665682      0.00107943
+372    309.78668015      0.00110983
+373    310.54519851      0.00117745
+374    311.31685974      0.00140913
+375    312.04569800      0.00132578
+376    312.75795036      0.00105931
+377    313.52935390      0.00101810
+378    314.27908393      0.00116634
+379    314.97846929      0.00089195
+380    315.70087409      0.00082842
+381    316.41434988      0.00075144
+382    317.10716073      0.00074809
+383    317.85544810      0.00054449
+384    318.58194872      0.00063667
+385    319.29089465      0.00047953
+386    319.99344916      0.00048359
+387    320.69439122      0.00048727
+388    321.38966652      0.00043998
+389    322.03859211      0.00041365
+390    322.75795697      0.00033541
+391    323.46307738      0.00044403
+392    324.12075373      0.00045135
+393    324.72654303      0.00036309
+394    325.41384207      0.00029392
+395    326.08156926      0.00028153
+396    326.71540120      0.00030774
+397    327.34710777      0.00023320
+398    328.06156211      0.00027417
+399    328.64578915      0.00030619
+400    329.22195844      0.00024414
+401    329.84880713      0.00019851
+402    330.50567646      0.00015903
+403    331.18381007      0.00013783
+404    331.74491472      0.00014007
+405    332.34277614      0.00012102
+406    332.99830688      0.00011764
+407    333.58851921      0.00015352
+408    334.10524293      0.00013430
+409    334.72592682      0.00013924
+410    335.26534497      0.00010734
+411    335.87025067      0.00010117
+412    336.44815862      0.00007081
+413    336.98866372      0.00011340
+414    337.58827770      0.00009197
+415    338.09335332      0.00010485
+416    338.63778338      0.00010443
+417    339.19297146      0.00007303
+418    339.69590592      0.00008595
+419    340.24093150      0.00006849
+420    340.76041616      0.00007646
+421    341.23272284      0.00008405
+422    341.76996348      0.00005615
+423    342.21115307      0.00005157
+424    342.74023571      0.00004587
+425    343.28319573      0.00007091
+426    343.70999123      0.00006724
+427    344.14580203      0.00005881
+428    344.60087502      0.00003247
+429    345.16080889      0.00002680
+430    345.57636034      0.00003123
+431    346.00391616      0.00004232
+432    346.40125926      0.00004341
+433    346.82685026      0.00002241
+434    347.17278651      0.00000620
+435    347.71805502      0.00002008
+436    348.09414493      0.00000906
+437    348.60385941      0.00000426
+438    349.10722266      0.00000215
+439    349.51995731      0.00000056
+440    350.05146141      0.00000088
+441    350.28423058      0.00000320
+442    350.57533305      0.00001253
+443    350.76194438      0.00000122
+444    351.17238495      0.00000093
+445    352.08779872      0.00000450
+446    352.16116339      0.00000257
+447    352.43450811      0.00010591
+448    353.00883492      0.00000003
+449    353.21561368      0.00003073
+450    353.89746235      0.00000000
+451    353.99007329      0.00000008
+452    354.19826299      0.00035657
+453    355.10384150      0.00003623
+454    355.42485913      0.00000071
+455    355.60247893      0.00001768
+456    355.85164558      0.00001781
+457    356.16395336      0.00000791
+458    356.30798865      0.00001316
+459    356.64334315      0.00000138
+460    356.77309953      0.00000027
+461    357.03140939      0.00000044
+462    357.26478584      0.00000005
+463    357.76859460      0.00001911
+464    357.78913348      0.00000155
+465    358.03426844      0.00000742
+466    358.25199414      0.00000853
+467    358.42085198      0.00007759
+468    358.73617754      0.00000065
+469    358.86424768      0.00000069
+470    359.01383277      0.00000554
+471    359.18066353      0.00001226
+472    359.41620155      0.00000012
+473    359.64717406      0.00000026
+474    359.74538119      0.00001891
+475    360.01359022      0.00002433
+476    360.29535768      0.00000759
+477    360.41318682      0.00000647
+478    360.69296518      0.00001514
+479    361.02968801      0.00000155
+480    361.29564880      0.00000219
+481    361.44047792      0.00000055
+482    361.66312479      0.00001039
+483    361.72408481      0.00000019
+484    362.10633724      0.00000707
+485    362.21458939      0.00001087
+486    362.56619609      0.00000222
+487    362.87484463      0.00000063
+488    362.96168678      0.00000039
+489    363.14866966      0.00000000
+490    363.24183899      0.00000008
+491    363.55501005      0.00000225
+492    363.71417623      0.00000000
+493    364.18228742      0.00000021
+494    364.43564560      0.00000035
+495    364.75140152      0.00000043
+496    365.09943680      0.00000636
+497    365.22639440      0.00000344
+498    365.51713542      0.00000020
+499    366.01422197      0.00000000
+500    366.46829700      0.00000013
+ electric dipole polarizability:    1127.9076931163074     
+
+ TIME:     00:27:25
+
+
+real	28m2.976s
+user	0m0.189s
+sys	0m0.094s

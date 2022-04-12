@@ -1,0 +1,8 @@
+NTHREADS = 48
+slurmstepd: error: execve(): /home/b62wong/projects/def-holt/b62wong/NeutronStarStuff/EOM-IMSRG/src/run_EOM: No such file or directory
+srun: error: cdr1986: task 0: Exited with exit code 2
+srun: launch/slurm: _step_signal: Terminating StepId=28205964.0
+
+real	0m13.130s
+user	0m0.160s
+sys	0m0.019s
